@@ -1,0 +1,746 @@
+.filter-page {
+    background-color: #0f131f;
+    padding: 10px;
+}
+
+.scouting-page {
+    margin: 20px;
+}
+
+
+
+.match-format-box input[type=checkbox] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+.match-format-box label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 55px;
+    height: 27px;
+    background: grey;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+}
+
+.match-format-box label:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    width: 23px;
+    height: 23px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+
+.match-format-box input:checked+label {
+    background: #ffd464;
+}
+
+.match-format-box input:checked+label:after {
+    left: calc(100% - 4px);
+    transform: translateX(-100%);
+}
+
+.match-format-box label:active:after {
+    width: 23px;
+}
+
+.filter-role {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.filter-role h6 {
+    font-size: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+.match-format h4 {
+    color: white;
+}
+
+.min-rank label {
+    color: white;
+}
+
+.min-rank .form-control {
+    background-color: transparent;
+    color: white;
+    font-family: auto;
+}
+
+.min-rank option {
+    color: white !important;
+    background-color: #0f131f !important;
+}
+
+/* .min-rank option:active {
+    color: white !important;
+    background-color: red !important;
+} */
+.min-rank .form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.reset-filters button {
+    width: 90%;
+    /* margin: 20px; */
+    background-color: #ffd464;
+    border: 1px solid #ffd464;
+    color: black;
+    border-radius: 5px;
+}
+
+.reset-filters {
+    text-align: center;
+    margin: 30px 0px 20px 0px;
+}
+
+.join-team-button button,
+.join-team-button button:hover,
+.join-team-button button:focus,
+.join-team-button button:active {
+    width: 90%;
+    /* margin: 20px; */
+    background-color: #ffd464;
+    border: 1px solid #ffd464;
+    color: black;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: none;
+}
+
+.join-team-button .btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #ffd464;
+    border: 1px solid #ffd464;
+    color: black;
+}
+
+.join-team-button {
+    margin: 20px 0px 30px 0px;
+    text-align: center;
+}
+
+.soutnig-main-page .middle-wrapper {
+    width: 80%;
+    margin: 0px auto;
+}
+
+/* scoutnig right area */
+.scouting-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-arrow img {
+    height: 20px;
+}
+
+.scouting-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scouting-profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profile-name h6 {
+    margin-bottom: 0px;
+    color: white;
+    font-size: 22px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profile-name p {
+    color: #8e8e8e;
+    margin-bottom: 0px;
+    font-family: 'Avalon';
+    font-weight: 600;
+}
+
+.scouting-box .accordion>.card>.card-header {
+    border-radius: 0;
+    margin-bottom: -1px;
+    background-color: #0f131f;
+    border-bottom: 2px solid #4a4949;
+}
+
+.scouting-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-arrow img {
+    height: 20px;
+}
+
+.scouting-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scouting-profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profile-name h6 {
+    margin-bottom: 0px;
+    color: white;
+    font-size: 22px;
+}
+
+.profile-name p {
+    color: white;
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.profile-name p span {
+    margin-right: 16px;
+    /* padding-right: 7px; */
+}
+
+.profile-name p span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: #a7a1a1;
+    margin-top: 8px;
+    margin-left: 4px;
+}
+
+.profile-name p img {
+    height: 18px;
+}
+
+.scouting-btn button,
+.scouting-btn button:hover,
+.scouting-btn button:focus {
+    background-color: #ffd464;
+    border: 1px solid #ffd464;
+    color: black;
+    padding: 5px 25px;
+    outline: none;
+    box-shadow: none;
+}
+
+.scouting-btn .btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #ffd464;
+    border: 1px solid #ffd464;
+    color: black;
+    padding: 5px 25px;
+}
+
+
+
+.icon-arrow {
+    border: 1px solid #5a5858;
+    margin: 0px 5px;
+    padding: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.icon-arrow img {
+    transform: rotate(90deg);
+    height: 33px;
+    /* padding: 20px; */
+}
+
+.scouting-box .card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem 0em;
+    background-color: #0f131f;
+}
+
+.decription-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0em 1.25rem;
+}
+
+.left-desc {
+    width: 50%;
+    color: white;
+    font-family: 'Avalon';
+}
+
+.right-desc {
+    width: 30%;
+    color: white;
+    font-family: 'Avalon';
+}
+
+.left-desc h6 {
+    font-size: 14px;
+    font-family: 'Avalon';
+    margin-bottom: 0px;
+}
+
+.right-desc h6 {
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+.right-desc p {
+    font-size: 18px;
+    color: #afafaf;
+    /* font-family: 'Avalon-bold'; */
+}
+
+.left-desc p {
+    font-size: 15px;
+    color: #afafaf;
+}
+
+.scouting-body {
+    border-bottom: 1px solid #4c4b4b;
+}
+
+.roles-desc {
+    width: 40%;
+}
+
+.stream-account {
+    width: 30%;
+
+}
+
+.stats {
+    width: 30%;
+}
+
+.account-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.roles-desc h6 {
+    margin-bottom: 10px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Avalon' !important;
+}
+
+.roles-image img {
+    height: 35px;
+    margin: 2px;
+}
+
+.stream-account h6 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: 'Avalon' !important;
+}
+
+.account-info img {
+    height: 45px;
+    border-radius: 50%;
+}
+
+.stats h6 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: 'Avalon' !important;
+}
+
+.scouting-body-bottom {
+    margin-top: 20px;
+}
+
+.scouting-box {
+    border-left: 15px solid #ffd464;
+    border-radius: 5px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 0px;
+    margin-bottom: 20px;
+}
+
+.scouting-box .card {
+    border: 0px !important;
+}
+
+.stats-level .progress {
+    background-color: #343a4d;
+}
+
+.stats-level .bg-info {
+    background-color: #ffd464 !important;
+}
+
+.scouting-profile img {
+    border-radius: 50%;
+}
+
+.profile-name h6 span {
+    font-size: 11px;
+    font-family: 'Avalon';
+
+    padding: 3px 10px;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+
+.profile-name h6 span.unranked {
+    border: 1px solid #4b4c4e;
+    color: #4b4c4e;
+    color: white;
+    text-transform: uppercase;
+}
+
+.profile-name h6 span.tier1 {
+    border: 1px solid #ffd464;
+    color: #ffd464;
+    color: white;
+    text-transform: uppercase;
+}
+
+.profile-name h6 span.tier2 {
+    border: 1px solid #404040;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* 
+scouting popup */
+.scouting-popup .modal-content {
+    background: #0f131f;
+}
+
+.spopup-header {
+    text-align: center;
+    color: white;
+}
+
+.modal-dialog.scouting-popup {
+    max-width: 700px;
+}
+
+.scouting-popup .spopup-header h6 {
+    font-size: 45px;
+}
+
+.scouting-popup .spopup-header p {
+    font-size: 17px;
+    font-family: 'Avalon-bold';
+}
+
+.scouting-popup .spopup-header img {
+    margin-bottom: 20px;
+    height: 65px;
+}
+
+.popup-roles .form-control {
+    background-color: transparent;
+    border: 1px solid #404040;
+    color: rgb(255, 255, 255);
+    font-family: auto;
+}
+
+.popup-roles option {
+    background-color: #0f131f;
+    color: white;
+}
+
+.popup-roles label {
+    color: white;
+}
+
+.spopup-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.spopup-btn button {
+    margin: 0px 10px;
+    padding: 5px 20px;
+}
+
+.spopup-btn button.btn.btn-primary {
+    background-color: #1a1d27;
+    border: 1px solid #3c3c3c;
+}
+
+.spopup-btn button.btn.btn-info {
+    background-color: #ffd464;
+    border: 1px solid #ffd464;
+    color: black;
+}
+
+.scouting-popup .modal-header {
+    /* background: url('../../assets/home/main-bg.jpg') */
+    display: none;
+}
+
+.scouting-popup .modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 25px 40px;
+}
+
+.closebtn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.closebtn i {
+    color: #ffd464;
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.closebtn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.closebtn i {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    right: 15px;
+}
+
+.game-account {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.game-account img {
+    height: 74px;
+    border-radius: 100px;
+    padding: 5px;
+}
+
+.game-account h6 {
+    color: white;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.game-account h6 i {
+    border: 1px solid white;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 50%;
+}
+
+.popup-account {
+    border: 1px solid #404040;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-left: 12px solid #ffd464;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.account-info h6 {
+    margin-bottom: 0px;
+}
+
+.contact-chatbox {
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top: 0px;
+}
+
+/* chatbox popup */
+.contact-box-popup .chat-content {
+    width: 100%;
+    padding-left: 0px;
+    height: auto;
+}
+
+.modal-dialog.contact-popup .modal-content {
+    background-color: #1b2237;
+}
+
+.modal-dialog.contact-popup .modal-content .modal-header {
+    display: none;
+}
+
+.contact-box-popup .chat-section {
+    padding: 0px;
+}
+
+.contact-box-popup .chat-section .chat-box {
+    padding-bottom: 0px;
+}
+
+.send-button {
+    text-align: right;
+}
+
+.send-button button {
+    background-color: #ffd464;
+    border: 1px solid #ffd464;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.modal-dialog.contact-popup {
+    /* position: absolute; */
+    top: 15%;
+    /* right: 10%;
+    width: 100%; */
+}
+
+.contact-message {
+    background-color: #0f131f;
+    margin: 10px;
+    padding: 10px;
+    width: fit-content;
+    color: white;
+    border-radius: 12px;
+}
+
+.contact-message h6 {
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-message.user-chat {
+    position: absolute;
+    right: 0px;
+}
+
+.closing-icon {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+
+.closing-icon i {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.chat-box input[type="text"] {
+    background-color: #0f131f;
+    border: none;
+    border-top: 1px solid #ffd464;
+    width: 100%;
+    padding: 15px 10px;
+    color: white;
+}
+
+.chat-box input[type="text"]::placeholder {
+    color: white;
+}
+
+.chat-box input[type="text"]:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.contact-message h6 img {
+    margin-right: 10px;
+    height: 35px;
+}
+
+span.one-more-class img {
+    height: 35px;
+}
+
+.prestige-dropdown-cc {
+    width: 100%;
+}
+
+.prestige-dropdown-cc .dropdown button,
+.prestige-dropdown-cc .dropdown button:focus,
+.prestige-dropdown-cc .dropdown button:hover {
+    width: 100%;
+    text-align: left;
+    background-color: transparent;
+    border: 1px solid white !important;
+    outline: none;
+    box-shadow: none;
+}
+
+.prestige-dropdown-cc .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+.prestige-dropdown-cc .dropdown-menu.show {
+    display: block;
+    width: 100%;
+}
+
+.profile-name h6 span.tier2 img {
+    height: 30px;
+}
+
+span.selected-lang {
+    background: #ffd464;
+    padding: 3px 8px;
+    font-size: 14px;
+    border-radius: 3px;
+    margin: 3px;
+
+}
+
+.selected-lang-div {
+    display: flex;
+    margin-top: 5px;
+    flex-wrap: wrap;
+}
+
+.selected-lang-div i {
+    color: red;
+    font-size: 17px;
+    cursor: pointer;
+}

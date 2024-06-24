@@ -1,0 +1,878 @@
+/*****************  Matchmaking Profile ******************/
+
+
+.matchmaking-profile {
+    padding: 20px;
+}
+
+.matchmaking-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #fff;
+    background: #0f131f;
+}
+
+.matchmaking-user {
+    background: #0f131f;
+    display: flex;
+    padding: 10px 20px;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.matchmaking-user-box img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.matchmaking {
+    color: #fff;
+}
+
+.matchmaking-user-stats {
+    display: flex;
+    width: 60%;
+    padding: 20px;
+    background: #1b2237;
+    justify-content: space-between;
+    font-family: 'Avalon-Bold' !important;
+}
+
+.stat-box {
+    text-align: center;
+}
+
+.matchmaking-user-info ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+.matchmaking-user-info {
+    width: calc(100% - 60px);
+    padding-left: 20px;
+}
+
+.matchmaking-user-info ul li img {
+    width: 20px;
+}
+
+.matchmaking-user-info ul li {
+    background: #1b2237;
+    margin: 0px 5px;
+    width: 50px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 2px 5px;
+}
+
+.matchmaking-user-info h3 {
+    margin: 0;
+    background: #1b2237;
+    padding: 2px 20px;
+    border-radius: 4px;
+    font-family: 'Avalon' !important;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.stat-box h4 {
+    font-size: 25px;
+    margin: 0;
+}
+
+.stat-box span {
+    font-size: 14px;
+}
+
+.cream-text h4 {
+    color: #ffd366;
+}
+
+.green-text h4 {
+    color: #41a35a;
+}
+
+.red-text h4 {
+    color: #ea2929;
+}
+
+
+
+.matchmaking-bottom {
+    background: #0f131f;
+    padding: 20px 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 4px;
+}
+
+.matchmaking-selection {
+    width: 30%;
+    text-align: center;
+    padding: 20px 10px;
+    font-family: 'Avalon-Bold' !important;
+}
+
+.matchmaking-5vs5 {
+    width: 43%;
+    text-align: center;
+    padding: 20px 10px;
+    font-family: 'Avalon' !important;
+    border-left: 1px solid #2d2b2b;
+    border-right: 1px solid #2d2b2b;
+}
+
+.matchmaking-1vs1 {
+    width: 27%;
+    text-align: center;
+    padding: 20px 10px;
+    font-family: 'Avalon' !important;
+}
+
+.matchmaking-selection img {
+    width: 75px;
+    background: #1b2237;
+    border-radius: 3px;
+    margin: 20px 0px;
+}
+
+.matchmaking-selection p {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    margin: 0;
+    background: #1b2237;
+    border-radius: 4px;
+    padding: 4px;
+    margin-bottom: 30px;
+    font-family: 'Avalon' !important;
+}
+
+.matchmaking-selection h3 {
+    font-size: 16px;
+    font-family: 'Avalon' !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 200px;
+    margin: 0px auto;
+}
+
+.matchmaking-selection h3 span {
+    color: #ffd366;
+    font-family: 'Avalon-Bold' !important;
+    font-size: 25px;
+}
+
+.vsbox {
+    background: #4f4633;
+    font-size: 35px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: 'American' !important;
+    padding: 10px;
+}
+
+.matchmaking-profile .check-box {
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.matchmaking-profile .check-box .form-check {
+    margin-right: 10px;
+}
+
+.matchmaking-profile .check-box input[type=checkbox] {
+    height: 15px;
+    width: 15px;
+}
+
+
+.solo-team p {
+    font-size: 10px;
+    margin: 0;
+    padding-top: 5px;
+    line-height: 1.2;
+    max-width: 150px;
+}
+
+
+.solo-team {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.solo-team .btn {
+    background: #1b2237;
+    border-color: #1b2237;
+    min-width: 80px;
+    font-family: 'American' !important;
+    font-size: 20px;
+}
+
+.matchmaking-1vs1 .solo-team {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.matchmaking-profile .matchmaking-1vs1 .check-box {
+    font-size: 10px;
+}
+
+.matchmaking-profile .matchmaking-1vs1 .check-box .form-check {
+    margin-right: 0px;
+}
+
+.matchmaking-profile .matchmaking-1vs1 .check-box input[type=checkbox] {
+    width: 10px;
+    height: 10px;
+}
+
+.matchmaking-profile .creame-text {
+    color: #ffd366;
+}
+
+.matchmaking-profile .green-text {
+    color: #41a35a;
+}
+
+
+/************ Monthly Ranking ********/
+
+
+.monthly-ranking {
+    padding: 0px 20px 20px;
+}
+
+
+.monthly-list {
+    text-align: center;
+
+}
+
+.monthly-list h2 {
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    margin: 0;
+    padding: 10px 20px;
+    background: #1b2237;
+    font-family: 'Avalon-Bold' !important;
+    text-transform: uppercase;
+}
+
+.monthly-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background: #0f131f;
+    padding: 5px 0px;
+    font-family: 'Avalon-Bold' !important;
+    font-size: 18px;
+}
+
+.monthly-list-view {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #fff;
+    font-family: 'Avalon-Bold' !important;
+    border-top: 2px solid #ffd366;
+}
+
+.monthly-type span img {
+    width: 20px;
+}
+
+.monthly-prestige span img {
+    width: 25px;
+}
+
+.monthly-map span img {
+    width: 35px;
+    margin-right: 5px;
+}
+
+.monthly-header .btn-success {
+    background: transparent;
+    border-color: transparent;
+    font-size: 16px;
+    position: relative;
+    padding: 0;
+}
+
+.btn-success:not(:disabled):not(.disabled).active,
+.btn-success:not(:disabled):not(.disabled):active,
+.show>.btn-success.dropdown-toggle {
+    background: transparent;
+    border-color: transparent;
+}
+
+.monthly-header .btn-success:focus {
+    box-shadow: none;
+}
+
+.monthly-header .dropdown-toggle::after {
+    background: url("../../assets/hubs/arrow-white.png");
+    width: 17px;
+    height: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    position: absolute;
+    top: 8px;
+    right: -25px;
+}
+
+
+.monthly-type {
+    width: 15%;
+    padding: 0 !important;
+}
+
+.monthly-name {
+    width: 20%;
+}
+
+.monthly-prestige {
+    width: 15%;
+}
+
+.monthly-map {
+    width: 15%;
+}
+
+.monthly-join {
+    width: 15%;
+}
+
+.monthly-wins {
+    width: 20%;
+}
+
+.monthly-type span {
+    width: 50%;
+}
+
+
+.monthlys-btn {
+    border: #ffd366;
+    background: #ffd366;
+    font-family: 'American' !important;
+    padding: 4px 10px;
+    line-height: 1.2;
+    border-radius: 0;
+    margin-left: 10px;
+    letter-spacing: 0.5px;
+    text-shadow: 1px 0px 2px #000;
+    min-width: 75px;
+}
+
+.monthlys-btn:hover,
+.monthlys-btn:focus {
+    border: #ffd366;
+    background: #ffd366;
+}
+
+.monthly-list-view [class*="monthly-"]::after {
+    content: "";
+    background: #ffd366;
+    width: 2px;
+    height: 45px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
+
+
+
+.monthly-list-view {
+    position: relative;
+    background: #0f131f;
+}
+
+.monthly-list-view [class*="monthly-"] {
+    position: relative;
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+}
+
+.monthly-list-view .monthly-wins::after {
+    display: none;
+}
+
+
+.monthly-name span {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.monthly-name span img {
+    width: 20px;
+}
+
+.monthly-footer {
+    padding: 0px 20px 20px;
+    background: #0f131f;
+    border-top: 2px solid #ffd366;
+}
+
+.monthly-footer .monthlys-btn {
+    min-width: 100px;
+    padding: 4px;
+    border-radius: 3px;
+    font-family: 'Avalon-Bold' !important;
+    letter-spacing: 0;
+    margin: 0px 20px;
+    background: #1b2237;
+}
+
+.monthly-list-view:nth-child(even) {
+    background: #0f131f;
+}
+
+.monthly-list-view .monthly-map {
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+
+.monthly-list-view .monthly-map span {
+    width: 100%;
+}
+
+
+.monthly-table {
+    border: 2px solid #c4a354;
+}
+
+
+.first-winner {
+    background: #4b4331 !important;
+}
+
+.second-winner {
+    background: #353841 !important;
+}
+
+.third-winner {
+    background: #47362f !important;
+}
+
+
+.last-row {
+    background: #574d34;
+    padding: 10px 0px;
+}
+
+.last-row.monthly-list-view [class*="monthly-"]::after {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+/****************** Featured Streaming **********************/
+
+.feature-streaming .feature-stream {
+    padding: 20px 20px;
+    background: #1c223794;
+
+}
+
+
+.feature-streaming .feature-slider .slick-slide img {
+    height: 140px;
+}
+
+
+.feature-streaming .feature-slider {
+    max-width: 90%;
+    margin: 0px auto;
+}
+
+.feature-streaming .feature-stream h3 {
+    font-size: 28px;
+    max-width: 90%;
+    text-align: left;
+    margin: 0px auto;
+    position: relative;
+}
+
+.feature-streaming .feature-stream a {
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    font-size: 12px;
+    font-family: 'Avalon' !important;
+}
+
+.feature-streaming {
+    position: relative;
+}
+
+.feature-streaming .slick-prev {
+    left: -50px;
+}
+
+.feature-streaming .slick-next {
+    right: -60px;
+}
+
+.slick-prev::before,
+.slick-next::before {
+    width: 35px;
+    height: 35px;
+}
+
+.feature-slider .home-slider-img {
+    padding: 0px 10px;
+}
+
+.feature-slider .home-slider-img img {
+    border: 2px solid #ffd367;
+    border-radius: 4px;
+}
+
+.feature-slider-info {
+    position: relative;
+}
+
+.feature-slider-info span {
+    background: #1b2237;
+    padding: 2px 30px;
+    display: inline-block;
+    font-family: 'Avalon-Bold' !important;
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 25% 100%);
+    font-size: 15px;
+    top: -2px;
+    position: relative;
+}
+
+
+
+
+/****************** Looking Game 1vs1 **********************/
+
+
+
+.looking-game {
+    padding: 20px;
+}
+
+.looking-game-selection {
+    background: transparent;
+    border: 2px solid #161c2d;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px #484848;
+}
+
+.game-selection {
+    width: 35%;
+    text-align: center;
+    padding: 115px 60px;
+    padding-bottom: 105px;
+    font-family: 'Avalon-Bold' !important;
+}
+
+.game-selection-1vs1 {
+    width: 30%;
+    text-align: center;
+
+    font-family: 'Avalon' !important;
+
+}
+
+.gameselection-1vs1 {
+    width: 35%;
+    text-align: center;
+    padding: 115px 15px;
+    padding-bottom: 105px;
+    font-family: 'Avalon' !important;
+}
+
+.game-selection h4 {
+    text-align: center;
+    padding: 3px 5px;
+    font-family: 'American' !important;
+    background-color: #1b2237;
+    border-radius: 5px;
+}
+
+.gameselection-1vs1 span {
+    text-align: center;
+    padding: 3px 50px;
+    font-family: 'American' !important;
+    background-color: #1b2237;
+    margin-left: 5px;
+    color: #ffd366;
+    border-radius: 5px;
+}
+
+.gameselection-1vs1 h4 {
+    text-align: center;
+    padding: 5px;
+    font-family: 'American' !important;
+
+}
+
+.text {
+    text-align: center;
+    padding: 3px 5px;
+    font-family: 'American' !important;
+    background-color: #1b2237;
+    border-radius: 5px;
+}
+
+.timer2 {
+    text-align: center;
+    font-size: 26px;
+    border-radius: 50%;
+    font-family: 'American' !important;
+    background: #1b2237;
+    margin: 5px 80px;
+    text-align: center;
+    font-size: 23px;
+    padding: 19px;
+    border-radius: 50%;
+    font-family: 'American' !important;
+}
+
+.game-selection-1vs1 button {
+    text-align: center;
+    width: 200px;
+    font-family: 'American' !important;
+    background-color: #218838;
+    border-color: #218838;
+    box-shadow: 0px 0px 5px #218838;
+    color: white;
+    font-size: 22px;
+    padding: 0px;
+
+}
+
+.game-selection-1vs1 button:hover {
+    color: white;
+}
+
+.cancel-btn {
+    height: 25px;
+    margin-left: 100px;
+    margin-bottom: -30px;
+    background-color: #1b2237;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+/***************** lookinggame5vs5 *******************/
+.looking-game-selection5vs5 {
+    background: transparent;
+    border: 2px solid #161c2d;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px #484848;
+}
+
+.game-selection5vs5 {
+    width: 35%;
+    text-align: center;
+    padding: 70px 0px 0px 10px;
+
+}
+
+.game-selection5vs55 {
+    width: 35%;
+    text-align: center;
+    padding: 10px 0px;
+
+}
+
+.image-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-selection-5vs5 {
+    width: 30%;
+    text-align: center;
+}
+
+.img1 {
+    margin: 5px;
+}
+
+.img1-check {
+    height: 80px;
+    border-radius: 50px;
+}
+
+.img1-check1 {
+    height: 80px;
+    margin-bottom: 23px;
+}
+
+.start-btn {
+    text-align: center;
+    width: 200px;
+    font-family: 'American' !important;
+    background-color: #218838;
+    border-color: #218838;
+    box-shadow: 0px 0px 5px #218838;
+    color: white;
+    font-size: 22px;
+    padding: 0px;
+}
+
+.game-selection5vs55 span {
+    text-align: center;
+    padding: 3px 50px;
+    font-family: 'American' !important;
+    background-color: #1b2237;
+    margin-left: 5px;
+    color: #ffd366;
+    border-radius: 5px;
+}
+
+.game-selection5vs5 h4 {
+    text-align: center;
+    font-family: 'American' !important;
+    margin-top: 12px;
+}
+
+.game-selection5vs55 h4 {
+    text-align: center;
+    font-family: 'American' !important;
+    margin-top: 12px;
+}
+
+.userimg {
+    height: 110px;
+    border-radius: 50px;
+}
+
+.groupbtn {
+    margin: 12px 45px;
+}
+
+.ready-text {
+    margin-bottom: -5px;
+    font-family: 'Avalon' !important;
+    font-size: 14px;
+}
+
+.cancelbtn {
+    height: 25px;
+    margin-left: 100px;
+    margin-bottom: -50px;
+    background-color: #1b2237;
+    padding: 5px;
+}
+
+.timer1 {
+    text-align: center;
+    font-size: 26px;
+    border-radius: 50%;
+    font-family: 'American' !important;
+    background: #1b2237;
+    margin: 6px 80px;
+    text-align: center;
+    font-size: 23px;
+    padding: 20px;
+    border-radius: 50%;
+    font-family: 'American' !important;
+
+}
+
+.looking-game p {
+    font-family: 'Avalon' !important;
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.teampop-error {
+    list-style: none;
+    color: red;
+    font-size: 12px;
+    padding-left: 15px;
+}
+
+.teampop-error:before {
+    content: "";
+    position: absolute;
+    height: 6px;
+    margin-top: 5px;
+    left: 42px;
+    width: 6px;
+    background-color: red;
+    border-radius: 20px;
+}
+
+.teamlist-buuton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.teamlist-buuton button {
+    background-color: #ffd366;
+    color: black;
+    align-items: center;
+    border: 1px solid #ffd366;
+}
+
+.teamlist-buuton button:hover {
+    background-color: #ffd366 !important;
+    color: black !important;
+    align-items: center;
+    border: 1px solid #ffd366 !important;
+}
+
+.teamlist-buuton button:focus {
+    background-color: #ffd366 !important;
+    color: black !important;
+    align-items: center;
+    border: 1px solid #ffd366 !important;
+}
+
+/* Farhaj css */
+.game-selection-1vs1 img {
+    height: 110px;
+    border-radius: 50px;
+}

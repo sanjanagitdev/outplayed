@@ -1,0 +1,93 @@
+.team {
+    padding: 20px;
+}
+
+.team-list {
+    padding: 10px;
+}
+
+.team-image h6 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom: 1px solid #ffd367;
+    padding-bottom: 10px;
+}
+
+.team-image p {
+    color: #ffd367;
+    text-align: center;
+}
+
+.team-image img {
+    height: 125px;
+}
+
+.team-list-section {
+    width: 55%;
+    padding: 50px 50px;
+}
+
+.team-details {
+    display: flex;
+    padding: 7px;
+    margin-top: 10px;
+    background-color: #141928;
+    padding-bottom: 5px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    /* border-bottom: 1px solid #ffd367; */
+}
+
+.team-details h5 {
+    font-size: 25px;
+}
+
+
+.team-details h6 {
+    font-size: 20px;
+    color: #ffd367;
+    text-align: left;
+    font-family: 'Avalon' !important;
+
+}
+
+.team-image {
+    padding: 35px 50px;
+    text-align: center;
+    
+}
+
+.group-details {
+    width: 100%;
+    border-radius: 5px;
+    background: #1c2135;
+    overflow: hidden;
+}
+
+.group-details-section h1 {
+    color: white;
+    background-color: #1c2135;
+    padding: 5px 10px;
+    border-bottom: 1px solid #ffd367;
+}
+
+.team-details-section h1 {
+    color: white;
+    background-color: #1c2135;
+    padding: 5px 10px;
+    border-bottom: 1px solid #ffd367;
+}
+
+.player-content .custom-cross {
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: red;
+    font-size: 20px;
+}

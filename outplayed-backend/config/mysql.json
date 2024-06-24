@@ -1,0 +1,16 @@
+{
+    "5vs5": {
+        "host": "15.188.166.158",
+        "user": "luistest",
+        "password": "Luis@456",
+        "database": "warmod",
+        "port": "3306"
+    },
+    "1vs1": {
+        "host": "15.188.166.158",
+        "user": "luisstatssingle",
+        "password": "Luis@45611",
+        "database": "statssingle",
+        "port": "3306"
+    }
+}

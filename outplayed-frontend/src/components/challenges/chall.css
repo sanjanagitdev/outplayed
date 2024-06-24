@@ -1,0 +1,41 @@
+/* .challenge-page .support-table .support-header .answer {
+    width: 40% !important;
+    text-align: center;
+} */
+.challenge-page .support-table .support-header .number {
+    width: 17% !important;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.challenge-page .support-table .support-body .Category {
+    width: 15% !important;
+    text-align: center;
+}
+
+.challenge-page {
+    padding: 20px 10px !important;
+    background-color: #1b2237;
+    min-height: 100vh;
+}
+
+.challenge-page .answer button {
+    margin: 0px 5px;
+}
+
+.challenge-page .support-table .support-body .number {
+    width: 17% !important;
+    text-align: center;
+    font-size: 13px;
+}
+
+.challenge-page .support-table .support-header .answer {
+    width: 30% !important;
+    text-align: center;
+}
+
+.challenge-page .support-table .support-body .answer {
+    width: 30% !important;
+    text-align: center;
+}

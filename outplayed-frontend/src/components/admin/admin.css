@@ -1,0 +1,425 @@
+.admin-view .header,
+.admin-view .footer {
+    display: none;
+}
+
+.admin-wrapper {
+    overflow-x: hidden;
+}
+
+.admin-view .main_content {
+    padding: 0;
+}
+
+.header-view {
+    text-align: center;
+}
+
+.header-top-box h1 {
+    font-size: 30px;
+    padding: 5px 0px;
+}
+
+
+.admin-content-view {
+    display: flex;
+}
+
+.admin-menu {
+    min-height: 100vh;
+    border-right: 1px solid #0f131f;
+    width: 250px;
+    background: #0f131f;
+    transition: all 0.5s;
+}
+
+.admin-content {
+    padding: 30px 20px;
+}
+
+.admin-container {
+    width: calc(100% - 250px);
+    background: #f9fbfd;
+    transition: all 0.5s;
+}
+
+
+.admin-menu.menu-hide {
+    width: 0;
+
+}
+
+.admin-container.wrapper-expand {
+    width: 100%;
+}
+
+
+
+.menu-list ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-list ul li a {
+    padding: 15px 25px;
+    display: block;
+    color: #7f7f7f;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.admin-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.menu-logo {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+    border-bottom: 1px solid #191e2f;
+}
+
+.menu-logo h2 {
+    font-weight: 700;
+    margin: 0;
+}
+
+.menu-logo span {
+    font-size: 12px;
+    color: #c3c3c3;
+    letter-spacing: 1px;
+}
+
+.admin-info img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.admin-info {
+    display: flex;
+    align-items: center;
+}
+
+.menu-logo img {
+    max-width: 224px;
+    width: 100%;
+    padding: 0px 10px;
+    margin: 0px auto;
+    display: block;
+}
+
+.menu-toggle img {
+    width: 35px;
+    opacity: .9;
+    transition: all 0.5s;
+}
+
+.menu-toggle img:hover {
+    opacity: 1;
+}
+
+.menu-list ul li a:hover {
+    color: #ffda7d;
+}
+
+.admin-info h3 {
+    margin: 0;
+    font-size: 14px;
+    color: #212529;
+    font-weight: 600;
+}
+
+.menu-list ul li a i {
+    margin-right: 10px;
+    width: 20px;
+}
+
+.dashboard .card {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-color: #edf2f9;
+    box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, .03);
+}
+
+.menu-toggle a {
+    color: #555;
+    font-size: 20px;
+}
+
+
+.admin-title {
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.font-weight-600 {
+    font-weight: 600;
+}
+
+.dashboard .fa {
+    font-size: 30px;
+    opacity: 0.2;
+}
+
+.dashboard .card-body {
+    cursor: pointer;
+}
+
+.dashboard .card-body .fa {
+    transition: all 0.5s;
+}
+
+.dashboard .card-body:hover .fa {
+    opacity: 1;
+    color: #ffda7d !important;
+}
+
+
+.user-list .table-responsive>.table-bordered .btn {
+    background: #373373;
+    border: none;
+    padding: 5px 20px;
+    font-size: 14px;
+}
+
+.user-list .table td,
+.table th {
+    padding: 10px 10px;
+}
+
+.user-list .table td:last-child {
+    min-width: 146px;
+}
+
+.user-list .table-responsive>.table-bordered {
+    border: 0;
+    background: #fff;
+}
+
+
+.user-list .table td {
+    font-size: 14px;
+}
+
+.action-buttons .btn {
+    margin: 0px 5px;
+}
+
+
+.block-btn {
+    background: #f1454f !important;
+}
+
+.approve-btn {
+    background: #37a864 !important;
+}
+
+.edit-btn {
+    background: #6d6d6d !important;
+}
+
+.admin-search {
+    text-align: right;
+    padding-bottom: 25px;
+}
+
+
+.admin-search .form-inline {
+    justify-content: flex-end;
+}
+
+.admin-search .btn {
+    background: #373373;
+    border: none;
+}
+
+.admin-login {
+    background: #f9f9f9;
+    padding: 100px 0px;
+    min-height: 100vh;
+}
+
+.admin-login-box {
+    padding: 50px 40px;
+    max-width: 500px;
+    margin: 0px auto;
+    background: #fff;
+}
+
+.admin-login-box .form-group .form-control {
+    height: auto;
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid #dadada;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: fantasy !important;
+}
+
+.admin-login-box .form-group .form-control:focus {
+    box-shadow: none;
+    background: transparent;
+}
+
+.admin-login-box input:-internal-autofill-selected {
+    background: transparent !important;
+}
+
+.admin-login-box h2 {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+    color: #333;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************* Media SCreen ******************************/
+
+
+@media screen and (max-width:767px) {
+    .admin-container {
+        width: 100%;
+    }
+
+    .admin-menu {
+        width: 0;
+    }
+
+    .admin-search .form-inline {
+        justify-content: center;
+    }
+
+    .admin-search .btn {
+        margin-top: 10px;
+    }
+
+    .user-list .table-responsive>.table-bordered .btn {
+        min-width: 100px;
+        margin-bottom: 5px;
+    }
+
+    .admin-menu.menu-hide {
+        width: 250px;
+    }
+
+}
+
+
+.img-size {
+    height: 50px;
+    width: 50px;
+}
+
+.imagelist-size {
+    height: 50px;
+    width: 50px;
+}
+
+.imagebox {
+
+    height: 210px;
+    width: 210px;
+    margin-right: 50px;
+}
+
+.imagesize {
+
+    height: 200px;
+    width: 200px;
+}
+
+.display-image {
+    display: flex;
+    align-items: flex-end;
+}
+
+.l-btn.btn.btn-primary {
+    padding: 5px 35px;
+}
+
+
+.supportmodal {
+    padding: 10px;
+}
+
+.supportmodal h6 {
+    font-size: 20px;
+    font-family: 'Avalon' !important;
+    font-weight: 600;
+}
+
+.supportmodal .support-description {
+
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 25px;
+
+}
+
+.supportmodal span {
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+.support-ticket {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.support-ticket button {
+    margin-left: 20px;
+}
+
+/* akram */
+.all-ticket-dropdown {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.attachment-data img {
+    width: 100%;
+    height: 250px;
+}
+
+.supportmodal .modal-dialog {
+    max-width: 650px;
+}
+
+img.admin-attachment-isseu {
+    margin-top: 7px;
+}
+
+.deletemedia{
+    color: red;
+    font-size: 20px;
+    position: absolute;
+    cursor: pointer;
+}

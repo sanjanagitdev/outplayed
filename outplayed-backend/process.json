@@ -1,0 +1,1 @@
+{"name":"server","script":"npm start","watch":"./","ignore_watch":["node_modules","public"]}

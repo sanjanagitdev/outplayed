@@ -1,0 +1,25 @@
+
+
+.forget-page .login-register{
+    width: 100%;
+}
+
+.forget-container {
+    max-width: 500px;
+    width: 100%;
+    background: #00191d;
+    padding: 70px 50px;
+    margin: 0px auto;
+    border-radius: 5px;
+}
+
+.forget-container h2 {
+    font-size: 30px;
+    color: #2ac0e1;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.forget-page .login-button .login-btn{
+    font-size: 15px;
+}

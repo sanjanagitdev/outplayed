@@ -1,0 +1,716 @@
+.ladder-header h6{
+    text-align: center;
+    color: white;
+}
+.ladder-header h6 {
+    font-size: 38px;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+.ladder-header {
+    background-color: #1b2237;
+}
+
+/* .ladder-img img {
+    width: 100%;
+    height: 210px;
+    object-fit: fill;
+} */
+.ladder-tab .nav-tabs .nav-link {
+    width: 19%;
+    text-align: center;
+    font-size: 29px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 2px;
+}
+.ladder-tab .nav-tabs {
+    margin-top: 50px;
+    border-bottom: none;
+    margin-left: -15px;
+}
+.ladder-tab .tab-content {
+    border: none;
+    margin-top: -1px;
+}
+.ladder-tab .nav-tabs .nav-link.active {
+    background: transparent;
+    border:2px solid  #ffd367;
+    color:  #ffd367;
+}
+
+.search-area {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.search-area input {
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid #373b45;
+    height: 35px;
+    font-size: 22px;
+  border-radius: 5px;
+    padding-left: 35px;
+    /* font-weight: 800; */
+}
+
+.search-area i.fa.fa-search {
+    position: absolute;
+    z-index: 999;
+    pointer-events: none;
+    left: 9px;
+    top: 6px;
+    color: white;
+    font-size: 20px;
+}
+.search-area button {
+    box-shadow: inset 0px 1px 3px 0px rgb(219 222 228);
+    margin-left: 10px;
+    background-color: #1b2237;
+    color: white;
+    font-size: 20px;
+    padding: 0px 12px;
+    border: none;
+    border-radius: 5px;
+}
+.info-table {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+
+
+/* .search-area button {
+    margin-left: 10px;
+    background-color: #343a4d;
+    color: white;
+    font-size: 20px;
+    padding: 0px 10px;
+    border: 1px solid white;
+} */
+
+.info-table {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 95%;
+    background-color: #1b2237;
+    /* padding: 15px 0px; */
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.info-no {
+    color: white;
+    text-align: center;
+    width: 10%;
+}
+
+.info-players {
+    width: 12%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.info-kills {
+    width: 10%;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.info-deaths {
+    width: 10%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.info-kdr {
+    text-align: center;
+    width: 10%;
+    color: white;
+    font-size: 18px;
+}
+
+.info-games {
+    width: 10%;
+    color: white;
+    text-align: center;
+    font-size: 19px;
+}
+
+.info-wins {
+    width: 10%;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.info-loses {
+    width: 10%;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.info-winrate {
+    width: 10%;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.info-score {
+    width: 15%;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.info-table-body {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    background-color: #1b2237;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.player-one-list{
+    border: 1px solid #ffd464 !important;
+    border-radius: 5px;
+    padding: 0px !important;
+}
+.player-two-list{
+    border: 1px solid #ffffff !important;
+    border-radius: 5px;
+    padding: 0px !important;
+}
+.player-one-list .info-no{
+    background-color: #ffd464 !important;
+    color: black;
+    padding: 5px 0px;
+}
+
+.player-two-list .info-no {
+    padding: 5px 0px;
+    background-color: #6c6c6c;
+    /* border-radius: 5px; */
+}
+.player-one .info-wins {
+    background-color: #264942;
+    padding: 5px 0px;
+}
+
+.player-one .info-loses {
+    background-color: #601826;
+    padding: 5px 0px;
+}
+
+.player-one .info-score {
+    color: #ffd464;
+    padding: 5px 0px;
+}
+.player-one .info-players{
+    padding: 5px 0px;
+    border-right: 2px solid #343a4d;
+}
+.player-one .info-kills{
+    padding: 5px 0px;
+    border-right: 2px solid #343a4d;
+}
+
+.player-one .info-deaths{
+    padding: 5px 0px;
+    border-right: 2px solid #343a4d;
+}
+.player-one .info-kdr{
+    padding: 5px 0px;
+    border-right: 2px solid #343a4d;
+}
+.player-one .info-games{
+    padding: 5px 0px;
+    border-right: 2px solid #343a4d;
+}
+.player-one .info-winrate{
+    padding: 5px 0px;
+    border-right: 2px solid #343a4d;
+}
+.player-three-list {
+    border: 1px solid #00ff00 !important;
+    border-radius: 5px;
+    padding: 0px !important;
+}
+
+.player-three-list .info-no {
+    background-color: #5c3327;
+    padding: 5px 0px;
+}
+.player-one .info-no {
+    padding: 0px 0px !important;
+    border-right: 2px solid #343a4d;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.info-table-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.info-table-section .checkbox{
+    width: 10%;
+    text-align: center;
+    margin-top: 34px;
+    height: 20px;
+    width: 20px;
+    margin: 12px auto 0px;
+
+}
+.info-table-section .checkbox input[type="checkbox"] {
+    border: 1px solid white;
+    -webkit-appearance: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 3px;
+}
+.info-table-section .checkbox input[type="checkbox"]:checked {
+    -webkit-appearance: checkbox !important;
+}
+.info-table-section .checkbox input[type="checkbox"]:focus{
+  
+    box-shadow: none;
+    outline: none;
+}
+
+/* popup css */
+.ladder-popup {
+    background-color: #212739;
+    text-align: center;
+    border: 2px solid white;
+    padding: 50px 80px;
+    justify-content: center;
+    color: white;
+    box-shadow: 0px 0px 50px 0px #7b7777;
+}
+.ladder-popup h6 {
+    font-size: 60px;
+}
+.ladder-popup img {
+    background-color: #420055;
+    box-shadow: inset 0px 1px 5px 6px rgb(29 8 35);
+}
+.ladder-popup h6 {
+    font-size: 60px;
+}
+/* 
+.ladder-popup img {
+    background-color: #3b004b;
+    border: 1px solid #23002d;
+    box-shadow: 0px 0px 10px 0px #64496b;
+} */
+
+.choose-date-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.react-datepicker__input-container input {
+    width: 85%;
+    height: 40px;
+    background-color: #3a3e49;
+    border: 2px solid #9a9696;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+.react-datepicker__input-container input[type="text"]::placeholder {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.choose-date-time input[type="time"]::placeholder {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.claendar-input {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.choose-date-time .react-datepicker__input-container {
+    width: 100%;
+}
+.choose-date-time .react-datepicker-wrapper {
+    width: 100%;
+}
+.ladder-popup input[type="text"] {
+    width: 85%;
+    height: 45px;
+    background-color: #3a3e49;
+    border: 2px solid #9a9696;
+    color: white;
+    padding: 25px;
+    pointer-events: none;
+}
+.claendar-input i{
+    margin: 0px 20px;
+    background-color: #3b3f49;
+    padding: 10px 15px;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #9a9696;
+}
+.ladder-popup button {
+    margin: 0px 20px;
+    background-color: #3b3f49;
+    padding: 5px 15px;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #9a9696;
+}
+.ladder-popup h5 {
+    text-align: left;
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-family: 'Avalon-Bold';
+    text-transform: uppercase;
+    /* font-weight: 800; */
+}
+
+.ladder-popup .choose-date {
+    margin-top: 20px;
+}
+.challange-button button {
+    margin-top: 50px;
+    width: 85%;
+    font-size: 35px;
+    background-color: #786a47;
+    border-radius: 5px;
+    padding: 0px;
+}
+.ladder-play {
+    display: flex;
+    justify-content: flex-start;
+    /* width: 80%; */
+    align-items: center;
+    text-align: center;
+    /* background-color: #3a3e49; */
+    /* padding: 20px; */
+    border-top: 1px solid wheat;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.player-one-ladder {
+    background-color: #3a3e49;
+    padding: 14px 4px;
+    width: 45%;
+    text-align: left;
+    margin-left: 5%;
+    font-family: 'Avalon';
+}
+
+.player-two-ladder {
+    width: 45%;
+    padding: 14px 4px;
+    /* background-color: #3a3e49; */
+    text-align: left;
+    margin-left: 10%;
+    font-family: 'Avalon';
+}
+.ladder-popup .modal-header {
+    display: none;
+}
+.modal-dialog.ladder-popup {
+    max-width: 815px;
+    margin: 1.75rem auto;
+}
+.ladder-popup .modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #212739;
+    background-clip: padding-box;
+    border: none;
+    border-radius: .3rem;
+    outline: 0;
+}
+.info-no img {
+    height: 60px;
+    width: 100%;
+    object-fit: cover;
+    background-color: #420055;
+    box-shadow: inset 0px 2px 7px 8px rgb(29 8 35);
+}
+.player-one .info-no:after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    color: red;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+.player-one-list .info-no:after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    color: red;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 3px solid black;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+.player-two-list .info-no:after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    color: red;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 3px solid black;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+.player-three-list .info-no:after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    color: red;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 3px solid black;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+
+
+.info-table-section .checkbox input[type="checkbox"]:checked {
+    -webkit-appearance: none !important;
+}
+.info-table-section .checkbox input[type="checkbox"]:checked::after {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: lime;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+.ladderimg{
+    background: url("../../assets//tournament/csgo-cover.png");
+    background-size: cover;
+    height: 270px;
+}
+.ladder-contentt{
+    padding: 15px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    overflow-y: auto;
+}
+.ladder-finish  {
+    text-align: center;
+   
+    margin-top: 20px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.ladder-finish h6{
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.ladder-bottom {
+    margin-top: 80px;
+}
+.ladder-finish h6:before {
+    content: "";
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    background-color: red;
+    margin-top: 9px;
+    margin-left: -19px;
+    border-radius: 50%;
+}
+.rules-tab {
+    padding: 20px;
+}
+
+.rules-tab h6 {
+    color: white;
+    font-family: 'Avalon';
+    max-width: 85%;
+    text-align: justify;
+    margin: 15px auto;
+    height: 200px;
+}
+
+.rules-tab {
+    padding: 20px;
+}
+
+.rules-tab h6 {
+    color: white;
+    font-family: 'Avalon';
+    max-width: 85%;
+    text-align: justify;
+    margin: 15px auto;
+    height: 200px;
+}
+
+.classi-content {
+    max-width: 80%;
+    margin: 15px auto;
+}
+
+.content-first {
+    color: white;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+
+
+
+.content-first h6 {
+    margin-bottom: 0px;
+    padding: 15px 0px;
+    font-size: 20px;
+}
+
+.content-first h6 span {
+    font-family: 'Avalon';
+    font-size: 16px;
+    margin-left: 10px;
+}
+.classification-tab {
+    /* padding: 2px; */
+    margin: 20px;
+    height: 400px;
+    overflow-y: scroll;
+}
+.rules-tab {
+    /* padding: 2px; */
+    margin: 20px;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.rules-tab.custom-scroll::-webkit-scrollbar-track {
+    border-radius: 3px;
+    background-color: #2b3758;
+  }
+  
+  .rules-tab.custom-scroll::-webkit-scrollbar {
+    width: 10px;
+    background-color: #2b3758;
+    height: 20px;
+  }
+  
+  .rules-tab.custom-scroll::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: #d7d8dd;
+  }
+  .classification-tab.custom-scroll::-webkit-scrollbar-track {
+    border-radius: 3px;
+    background-color: #2b3758;
+  }
+  
+  .classification-tab.custom-scroll::-webkit-scrollbar {
+    width: 10px;
+    background-color: #2b3758;
+    height: 20px;
+  }
+  
+  .classification-tab.custom-scroll::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: #d7d8dd;
+  }
+
+
+
+  .custom-timepicker {
+    background-color: #3a3e49;
+    padding: 15px;
+    /* font-size: 12px; */
+    height: 200px;
+    overflow-y: scroll;
+    position: absolute;
+    width: 81%;
+    bottom: -83px;
+
+}
+
+.timepicker h6 {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.custom-timepicker::-webkit-scrollbar-track
+{
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+border-radius: 10px;
+background-color: #F5F5F5;
+}
+
+.custom-timepicker::-webkit-scrollbar
+{
+width: 12px;
+background-color: #F5F5F5;
+}
+
+.custom-timepicker::-webkit-scrollbar-thumb
+{
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+background-color: #555;
+}
+
+/* ***akram**** */
+.ladder-cutom-reg {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.ladder-cutom-reg button,
+.ladder-cutom-reg button:hover,
+.ladder-cutom-reg button:active,
+.ladder-cutom-reg button:focus {
+    background: #ffd366;
+    border-color: #ffd366;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    text-shadow: 1px 0px 2px #000;
+    outline: none;
+    box-shadow: none;
+}

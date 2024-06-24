@@ -1,0 +1,24 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+
+
+body{
+    font-family: 'American'!important;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'American';
+    src: url('./assets/fonts/American-Captain.ttf');
+}
+
+@font-face {
+    font-family: 'Avalon';
+    src: url('./assets/fonts/Avalon.ttf');
+}
+
+@font-face {
+    font-family: 'Avalon-Bold';
+    src: url('./assets/fonts/Avalon-Bold.ttf');
+}
+  

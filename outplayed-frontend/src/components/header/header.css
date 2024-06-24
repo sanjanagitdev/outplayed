@@ -1,0 +1,847 @@
+.header-wrapper {
+  position: relative;
+  z-index: 999;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  background: #0f131f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 10px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.nav {
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.header .nav .nav-link {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 7px 20px;
+  background: #1b2237;
+  border-radius: 3px;
+  font-size: 16px;
+  max-width: 150px;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 0.5px;
+  transition: all 0.5s;
+}
+
+.header .nav .nav-link:hover {
+  background: #272f46;
+}
+
+.header .nav .nav-link.logo-icon {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 8px 20px;
+  background: transparent;
+  width: auto;
+}
+
+.header .nav .nav-link.logo-icon:hover {
+  background: transparents;
+}
+
+.header .nav .nav-link.logo-icon img {
+  max-width: 50px;
+  margin-right: 15px;
+}
+
+.header .nav .nav-link:hover {
+  color: #fff;
+}
+
+.logo {
+  max-width: 224px;
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.logo img {
+  width: 100%;
+}
+
+/************ Logged In  ******/
+
+.logged-in-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  left: 43%;
+  transform: translateX(-50%);
+}
+
+.header-action ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.header-action img {
+  width: 40px;
+}
+
+.header-action ul li {
+  margin: 0px 10px;
+}
+
+.wallet {
+  background: #937c46;
+  padding: 4px 25px;
+  color: #fff;
+  border-radius: 5px;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.wallet img {
+  width: 40px;
+  vertical-align: middle;
+}
+
+.wallet span {
+  font-family: 'Avalon' !important;
+  margin-right: 10px;
+  position: relative;
+  top: 2px;
+  font-size: 15px;
+}
+
+.profile-menu {
+  display: flex;
+  align-items: center;
+  background: #1b2237;
+  border-radius: 5px;
+  padding: 1px 10px;
+}
+
+.profile-menu img {
+  width: 40px;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+
+.profile-menu .btn-success {
+  background: transparent;
+  border-color: transparent;
+  color: #ffd366;
+  font-size: 15px;
+  padding: 0;
+  vertical-align: top;
+}
+
+.profile-menu .dropdown {
+  font-family: 'Avalon' !important;
+}
+
+.profile-menu .dropdown-toggle::after {
+  content: '';
+  background: url(../../assets/header/arrow-down.png);
+  width: 20px;
+  height: 11px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.profile-menu .btn-success:not(:disabled):not(.disabled).active,
+.profile-menu .btn-success:not(:disabled):not(.disabled):active,
+.profile-menu .show>.btn-success.dropdown-toggle {
+  background: transparent;
+  border-color: transparent;
+}
+
+.btn-success:not(:disabled):not(.disabled).active:focus,
+.btn-success:not(:disabled):not(.disabled):active:focus,
+.show>.btn-success.dropdown-toggle:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.profile-menu .btn-success:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.dropdown-menu {
+  background: #1b2237;
+  border-color: #191f31;
+  padding: 10px;
+}
+
+.dropdown-menu a {
+  display: block;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 0px;
+}
+
+.dropdown-menu a:hover {
+  color: #ffd366;
+  text-decoration: none;
+}
+
+/*********** Popup *********/
+
+.outlayed-popup .modal-content {
+  background: #0f131f;
+  font-family: 'Avalon' !important;
+}
+
+.outlayed-popup .modal-content .modal-header {
+  border: none;
+}
+
+.outlayed-popup .close {
+  font-weight: 100;
+  color: #fff;
+  text-shadow: none;
+}
+
+.outlayed-popup .btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.outlayed-popup .modal-body {
+  padding: 40px;
+  padding-top: 0;
+}
+
+.login-form label {
+  color: #fff;
+}
+
+.login-form .form-control {
+  background: transparent;
+  border: 1px solid #a5a5a5;
+  color: #fff;
+}
+
+.login-form .form-control::placeholder {
+  color: #9c9c9c;
+}
+
+.forget-password {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.login-button {
+  text-align: center;
+}
+
+.login-button .login-btn {
+  width: 100%;
+  background: #ffd366;
+  color: #000000;
+  padding: 6px 15px;
+  border-color: #ffd366;
+  font-family: 'Avalon-Bold' !important;
+  font-size: 18px;
+}
+
+.social-login {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.social-login span {
+  color: #fff;
+  padding-bottom: 20px;
+  display: block;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.social-media .btn {
+  width: 100%;
+  font-family: 'Avalon-Bold' !important;
+  font-size: 18px;
+}
+
+.social-media .steam-login {
+  background: #161c2b;
+  border-color: #161c2b;
+}
+
+.forget-link {
+  color: #b3afaf;
+}
+
+.forget-link:hover {
+  color: #fff;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+  box-shadow: none;
+}
+
+.popup-logo img {
+  max-width: 224px;
+  margin: 0px auto;
+  display: block;
+}
+
+.popup-logo {
+  padding-bottom: 25px;
+  margin-top: -10px;
+}
+
+/******* css for login error msg *****/
+.notification-item .notification-title {
+  color: #fff;
+  font-weight: 100 !important;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.countt {
+  position: relative;
+  right: 18px;
+  background-color: #ffc54b;
+  padding: 2px 7px;
+  border-radius: 25px;
+  color: black;
+  top: -10px;
+}
+
+/* header wallet css */
+.wallet-amount {
+  background-color: #937c46;
+  padding: 3px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.wallet-amount i {
+  font-size: 30px;
+  color: white;
+}
+
+.wallet-popup .modal-header {
+  display: none;
+}
+
+.wallet-popup .modal-content {
+  background-color: #0a0d14;
+  border: 1px solid #504709;
+}
+
+.wallet-amt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.wallet-amt h6 {
+  font-size: 25px;
+  color: white;
+}
+
+.wallet-amt i {
+  color: white;
+  font-size: 20px;
+}
+
+.wallet-total h6 {
+  font-size: 45px;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.wallet-total p {
+  color: #cec9c9;
+  font-family: 'Avalon';
+  font-size: 14px;
+  margin-top: -10px;
+}
+
+.deposit-button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.deposit-button .deposit-btn,
+.deposit-button .deposit-btn:focus {
+  background-color: #ffd366;
+  width: 49%;
+  border: 1px solid #ffd366;
+  border-radius: 50px;
+  padding: 6px;
+  font-size: 20px;
+  outline: none;
+  box-shadow: none;
+}
+
+.deposit-button .withdraw-btn,
+.deposit-button .withdraw-btn:focus {
+  background-color: #2c2e3363;
+  width: 49%;
+  border: 1px solid #2c2e33;
+  border-radius: 50px;
+  padding: 6px;
+  color: white;
+  font-size: 20px;
+  outline: none;
+  box-shadow: none;
+}
+
+.view-transaction {
+  width: 100%;
+  bottom: 0px;
+  text-align: center;
+  margin-top: 40px;
+  border-top: 1px solid #2c2e33;
+  padding-top: 16px;
+  font-family: 'Avalon';
+  text-transform: capitalize;
+}
+
+.view-transaction h6 {
+  color: white;
+  margin-bottom: 0px;
+}
+
+.wallet-total {
+  margin: 20px 0px;
+}
+
+.wallet-popup input,
+.wallet-popup input:focus {
+  background-color: transparent;
+  border: 1px solid #585a5f;
+  outline: none;
+  box-shadow: none;
+  color: white;
+}
+
+.wallet-popup label {
+  color: white;
+  margin-bottom: 0px;
+  font-family: 'Avalon';
+  font-size: 13px;
+}
+
+.modal-dialog.wallet-popup {
+  max-width: 650px !important;
+}
+
+/* 
+withdraw */
+.withdraw-multistep {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0px;
+}
+
+.choose-amt {
+  width: 25%;
+  text-align: center;
+  color: white;
+  font-family: 'Avalon';
+  position: relative;
+}
+
+.choose-amt h6 {
+  font-size: 14px;
+}
+
+.choose-amt:before {
+  content: '';
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background-color: #a7a4a4;
+  margin-top: -20px;
+  margin-left: -8px;
+  border-radius: 50%;
+}
+
+.choose-amt h6:before {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: #a7a4a4;
+  /* margin-top: -20px; */
+  top: -14px;
+  left: 45%;
+}
+
+.choose-amt:last-child h6::before {
+  background-color: transparent;
+}
+
+.choose-amount-section {
+  display: flex;
+  margin-top: 55px;
+}
+
+.amount-box {
+  width: 33%;
+  text-align: center;
+  color: white;
+}
+
+.amount-box h6 {
+  margin-bottom: 0px;
+  font-size: 25px;
+}
+
+.amount-box p {
+  font-size: 12px;
+  font-family: 'Avalon';
+}
+
+.enough-balance {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.enough-balance i {
+  font-size: 55px;
+  color: #ffd366;
+}
+
+.enough-balance h6 {
+  color: white;
+  font-size: 25px;
+  letter-spacing: 0.7px;
+  margin-bottom: 0px;
+}
+
+.enough-balance p {
+  color: white;
+  font-family: 'Avalon';
+  font-size: 14px;
+}
+
+.withdraw-bottom {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.withdraw-bottom .btn-cancel {
+  background-color: #2c2e3363;
+
+  border: 1px solid #2c2e33;
+  border-radius: 50px;
+  padding: 6px;
+  color: white;
+  font-size: 20px;
+  outline: none;
+  box-shadow: none;
+  width: 20%;
+}
+
+.withdraw-bottom .btn-continue {
+  background-color: #ffd366;
+  border: 1px solid #ffd366;
+  border-radius: 50px;
+  padding: 6px;
+  font-size: 20px;
+  outline: none;
+  box-shadow: none;
+  width: 20%;
+  margin-left: 20px;
+}
+
+.half {
+  display: flex;
+  justify-content: space-between;
+}
+
+.half .form-group {
+  width: 49%;
+}
+
+.withdraw-personal-info h6 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+
+.withdraw-personal-info p {
+  color: white;
+  font-family: 'Avalon';
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+
+.info-form select,
+.info-form select:focus {
+  background-color: transparent !important;
+  border: 1px solid #585a5f;
+  outline: none;
+  box-shadow: none;
+  color: white;
+}
+
+.payment-method h6 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+
+.payment-method p {
+  color: white;
+  font-family: 'Avalon';
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+
+.payment-option {
+  background-color: #6353e8f7;
+  max-width: 240px;
+  border-radius: 5px;
+  height: 120px;
+  position: relative;
+}
+
+.payment-option i {
+  color: white;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.payment-option h6 {
+  position: absolute;
+  right: 15px;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.payment-option:before {
+  content: '';
+  position: absolute;
+  right: -8px;
+  height: 25px;
+  width: 25px;
+  background-color: #0a0d14;
+  border-radius: 50%;
+  top: -6px;
+}
+
+.payment-option i.fa.fa-check-circle {
+  position: absolute;
+  right: -13px;
+  font-size: 20px;
+  top: -3px;
+  color: rgb(11, 192, 11);
+  /* background-color: rebeccapurple; */
+}
+
+.payment-method p:last-child {
+  color: white;
+  font-family: 'Avalon';
+  font-size: 11px;
+  margin-bottom: 25px;
+}
+
+.payment-transaction-layout h6 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+
+.payment-transaction-layout p {
+  color: white;
+  font-family: 'Avalon';
+  font-size: 13px;
+  margin-bottom: 0px;
+}
+
+.transaction-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.wallet-payment {
+  width: 40%;
+}
+
+.wallet-box {
+  border: 1px solid #585a5f;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.transaction-box {
+  border: 1px solid #585a5f;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wallet-transaction {
+  width: 56%;
+}
+
+.wallet-payment h6 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  letter-spacing: 0.8px;
+}
+
+.wallet-payment h6 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  letter-spacing: 0.8px;
+}
+
+.wallet-box .withdraw-bottom button {
+  width: 49%;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.wallet-transaction h6 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  letter-spacing: 0.8px;
+}
+
+.transaction-right h6 {
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.transaction-right button {
+  background-color: #171a20;
+  color: white;
+  padding: 2px 16px;
+  margin-top: 5px;
+  border-radius: 30px;
+  font-size: 13px;
+  border: 1px solid #585a5f;
+}
+
+.transaction-left p span {
+  background-color: #189c18;
+  padding: 2px 12px;
+  border-radius: 30px;
+  color: white;
+  font-size: 11px;
+}
+
+.transaction-left p:nth-child(2) {
+  font-size: 16px;
+  font-family: 'Avalon-Bold';
+  color: white;
+}
+
+.transaction-left p {
+  color: #a4a6a9;
+  font-size: 12px;
+}
+
+.wallet-box .withdraw-bottom {
+  margin-top: 5px;
+}
+
+.dropdown-menu .tickets {
+  display: block;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 0px;
+  cursor: pointer;
+}
+
+.dropdown-menu .tickets:hover {
+  color: #ffd366;
+}
+
+/* Farhaj css */
+
+.withdraw-box h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-bottom: 52px;
+}
+
+
+.choose-amt.active:before {
+  content: "";
+  background: #ffd366;
+  z-index: 9;
+}
+
+.choose-amt.active h6:before {
+  background-color: #ffd366;
+}
+.country-dropdown .css-yk16xz-control, .country-dropdown .css-yk16xz-control:hover, .country-dropdown .css-yk16xz-control:focus {
+  background-color: transparent !important;
+  border: 1px solid #585a5f !important;
+  outline: none;
+  box-shadow: none;
+}
+.country-dropdown .css-1pahdxg-control,
+.css-26l3qy-menu,
+.css-yk16xz-control {
+    background-color: transparent !important;
+    border: 1px solid #585a5f !important;
+    
+}
+
+
+.verify-details .verify-name {
+  display: flex;
+  margin: 15px 20px;
+}
+
+.verify-details .verify-name h5 {
+  color: white;
+  min-width: 150px;
+}
+
+.verify-details .verify-name h6 {
+  color: white;
+}
+
+.language-btn .dropdown button {
+  background-color: #1b2237;
+  color: #ffd366;
+  font-family: 'Avalon';
+  margin-left: 5px;
+}
+.language-btn {
+  position: absolute;
+  right: 20px;
+}

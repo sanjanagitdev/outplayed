@@ -1,0 +1,960 @@
+@media screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 1300px) {
+  .gathers-btn {
+    border: #ffd366;
+    background: #ffd366;
+    font-family: 'American' !important;
+    padding: 4px 4px;
+    line-height: 1.2;
+    border-radius: 0;
+    margin-left: 10px;
+    letter-spacing: 0.5px;
+    text-shadow: 1px 0px 2px #000;
+    min-width: 75px;
+  }
+}
+
+/******************************** tournament summery *********************************/
+
+@media only screen and (max-width: 1300px) {
+  .summery-right {
+    width: 26%;
+  }
+  ul.summery-list li.summery-item {
+    padding: 10px;
+  }
+  .tournament-tabs .nav {
+    margin: 30px 0;
+    padding: 0 30px;
+  }
+  .tounament-container h3 {
+    font-size: 25px;
+  }
+  .summery-right li.summery-item:last-child img {
+    width: 35px;
+  }
+  .summery-content {
+    padding: 15px 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .tournament-tabs .nav-tabs .nav-link {
+    font-size: 18px;
+  }
+  .tounament-container > p {
+    font-size: 16px;
+  }
+  .tounament-container h3 {
+    font-size: 20px;
+  }
+  .tournament-tabs .nav-tabs .nav-link:before {
+    height: 27px;
+  }
+  .tournament-tabs .nav-tabs .nav-link {
+    font-size: 12px;
+  }
+  .tounament-container h3 {
+    font-size: 16px;
+  }
+  .summery-right li.summery-item:last-child img {
+    width: 20px;
+  }
+}
+
+@media only screen and (max-width: 467px) {
+  .tournament-tabs .nav {
+    margin: 20px 0;
+    padding: 0 15px;
+  }
+  .tounament-container {
+    padding: 15px;
+  }
+  .tounament-container > p {
+    font-size: 14px;
+    padding: 0 20px 15px;
+  }
+  .summery-content {
+    padding: 15px 20px;
+    flex-wrap: wrap;
+  }
+  .summery-left {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .summery-right {
+    width: 100%;
+  }
+}
+
+/******************************** tournament registration *********************************/
+@media only screen and (max-width: 1300px) {
+  ul.player-list {
+    padding: 30px 10px;
+  }
+  .btn-tab {
+    width: 300px;
+    min-width: 140px;
+    font-size: 25px;
+  }
+  .next-btn span {
+    height: 67px;
+    font-size: 25px;
+    line-height: 25px;
+  }
+  ul.player-list {
+    padding: 30px 10px;
+  }
+  .signup-upper {
+    padding: 15px 20px;
+    font-size: 18px;
+  }
+  .signup-upper h3 {
+    font-size: 30px;
+  }
+  .check-in-time span {
+    font-size: 20px;
+  }
+  h4.check-in {
+    padding: 20px 15px;
+    width: 130px;
+    font-size: 25px;
+  }
+  .signup-middle {
+    padding: 25px 20px;
+  }
+  .check-in-time {
+    font-size: 14px;
+  }
+  .signup-middle .btn {
+    width: 100%;
+    font-size: 20px;
+  }
+  .note {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .btn-tab {
+    width: 220px;
+    min-width: 135px;
+  }
+  .signup-middle {
+    padding: 20px 10px;
+  }
+  .registration-right {
+    padding-left: 20px;
+  }
+  .check-in-time span {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .registration-left {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .registration-right {
+    width: 100%;
+    padding-left: 0;
+  }
+  .btn-tab {
+    width: 222px;
+    min-width: 140px;
+    font-size: 25px;
+  }
+  .next-btn span {
+    height: 67px;
+    font-size: 25px;
+    line-height: 26px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  ul.player-list {
+    padding: 10px 10px;
+  }
+  ul.player-list li.player-item {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 8px;
+  }
+  ul.player-list li.player-item:last-child {
+    margin-bottom: 0;
+  }
+  .player-content h4 {
+    font-size: 18px;
+  }
+  .player-status {
+    padding: 10px 15px 20px;
+    flex-wrap: wrap;
+  }
+  .next-btn {
+    align-items: center;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto 0;
+  }
+  .btn-tab {
+    width: 100%;
+  }
+  .signup-middle .btn {
+    width: 100%;
+    font-size: 25px;
+  }
+}
+
+/******************************** tournament Rules *********************************/
+@media only screen and (max-width: 1300px) {
+  .rules-content {
+    padding: 20px 40px;
+  }
+}
+.rules-content h3 {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .rules-content {
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .rules-content h3 {
+    font-size: 30px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+
+/* sidebar */
+.left-sidebar{
+  width: 70%;
+}
+.expand-icon{
+  display: block !important;
+}
+.left-sidebar.sidebar-expand {
+  width: 20%;
+  background: #0f131f;
+}
+.left-sidebar.sidebar-expand .main-menu .nav .nav-link span{
+  display: none;
+
+}
+.left-sidebar.sidebar-expand .main-menu .nav .nav-link {
+  padding: 28px 0px;
+
+}
+.left-sidebar .main-menu .nav .nav-link span{
+  display: block;
+  
+}
+.expand-icon i {
+  color: white;
+  /* right: 0px; */
+  text-align: right;
+  width: 100%;
+}
+
+
+/* header */
+.logo {
+  max-width: 75px;
+}
+.header .nav .nav-link.logo-icon img {
+  max-width: 25px;
+  margin-right: 0px;
+}
+.header .nav .nav-link {
+  padding: 3px 0px;
+  font-size: 15px;
+  max-width: 75px;
+}
+.header .nav {
+  align-items: center;
+  width: 110%;
+  justify-content: flex-end;
+}
+.advanced-btn {
+  font-size: 15px;
+  padding: 5px;
+}
+.advanced-btn img {
+  width: 45px;
+}
+.premium-btn img {
+  width: 45px;
+}
+.premium-btn{
+  font-size: 15px;
+  padding: 5px;
+}
+.outplayed-community ul {
+  flex-wrap: wrap;
+}
+.outplayed-community {
+  padding: 10px;
+}
+.outplayed-community h3 {
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 0;
+}
+.voice-service ul {
+  flex-wrap: wrap;
+}
+.increase-experience h3 {
+  font-size: 15px;
+  padding: 0px 8px;
+  padding-bottom: 30px;
+}
+/* right-sidebar */
+.right-sidebar {
+  width: 75%;
+  background: #141928;
+  margin-left: auto !important;
+  margin-top: 50px;
+  margin: 10px;
+}
+/* home page */
+.wrapper-expand .middle-wrapper {
+  width: 80%;
+}
+.home-slider-section {
+  padding: 15px 12px;
+}
+.home-slider-section h1 {
+  font-size: 35px;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 10px;
+  margin: 0;
+}
+.home-slider-section h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  margin: 0;
+  padding-bottom: 2px;
+}
+.slick-slide img {
+  height: 200px;
+}
+.feature-box {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.feature-box img {
+  max-width: 40px;
+  margin-bottom: 10px;
+}
+
+/* footer */
+.footer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 10px;
+}
+.footer-logo {
+  max-width: 100%;
+  width: 100%;
+  text-align: center;
+}
+.footer-social ul {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+/* news page */
+.news-header {
+  display: grid;
+  padding: 7px 10px;
+}
+.news-search {
+  position: relative;
+  padding: 0px 10px;
+  width: 100%;
+}
+.news-logo {
+  width: 100%;
+  text-align: center;
+}
+.news-category {
+  width: 100%;
+  padding: 0px 10px;
+}
+.news-category .profile-menu {
+  max-width: 100%;
+  width: 100%;
+}
+.news-list-content {
+  padding: 25px 10px;
+}
+.news-list {
+  display: grid;
+}
+.news-thumb {
+  width: 100%;
+}
+.news-thumb img {
+  width: 100%;
+}
+.news-info {
+  width: 100%;
+  padding: 10px;
+}
+.news-title {
+  width: 100%;
+  padding: 0px 10px;
+}
+.news-action-box {
+  width: 100%;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+.news-action-box img {
+  width: 25px;
+}
+.news-info h4::before {
+  left: 0px;
+}
+
+.news-info h4 {
+    font-size: 16px;
+}
+.news-tag {
+  font-size: 16px;
+}
+.news-title h3 {
+  color: #ffd356;
+  text-align: left;
+}
+
+/* hub page */
+.play-hub {
+  width: 100%;
+}
+.create-hub {
+  width: 100%;
+}
+.play-hub-form {
+  text-align: center;
+  padding: 10px;
+}
+.play-hub-form img {
+  position: absolute;
+  width: 25px;
+  top: 5px;
+  right: 2px;
+}
+.play-hub-form h3 {
+  font-size: 20px;
+}
+.play-hub-form .form-control {
+  padding: 5px 10px;
+  font-size: 14px;
+}
+.hubs-btn {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAABXCAIAAAHfcga3AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OEQwOEZCQ0VGMjZFMTFFQTlBMDVFRjYzMjM5OUYzMjMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OEQwOEZCQ0ZGMjZFMTFFQTlBMDVFRjYzMjM5OUYzMjMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4RDA4RkJDQ0YyNkUxMUVBOUEwNUVGNjMyMzk5RjMyMyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4RDA4RkJDREYyNkUxMUVBOUEwNUVGNjMyMzk5RjMyMyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqPBXZMAAAY9SURBVHjaYvzy7ef7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);
+  width: 160px;
+  height: 45px;
+  font-size: 22px;
+}
+.hubs-gather-list {
+  padding: 20px 10px;
+}
+.hubs-top-section {
+  padding: 30px 10px;
+}
+.gather-list h2 {
+  font-size: 18px;
+}
+.gather-list {
+  text-align: center;
+  border: 2px solid #c4a354;
+  overflow-x: scroll;
+}
+.gather-table {
+  min-width: 800px;
+  width: 100%;
+ 
+}
+
+/* matchmaking */
+.feature-slider .slick-prev::before, .slick-next::before {
+  width: 30px;
+  height: 30px;
+}
+.slick-prev::before {
+  margin-left: 30px;
+}
+.feature-streaming .feature-stream h3 {
+  font-size: 20px;
+  max-width: 100%;
+}
+.feature-streaming .feature-stream {
+  padding: 20px 10px;
+}
+.feature-streaming .slick-next {
+  right: -38px;
+}
+.matchmaking-user-stats {
+  width: 100%;
+}
+.matchmaking-user {
+  width: 100%;
+}
+.monthly-type {
+  position: relative;
+}
+.monthly-name{
+  position: relative;
+}
+.monthly-prestige{
+  position: relative;
+}
+.monthly-map{
+  position: relative;
+}
+.monthly-join{
+  position: relative;
+}
+.monthly-list h2 {
+  font-size: 16px;
+}
+.monthly-table {
+  border: 2px solid #c4a354;
+  min-width: 600px;
+}
+.feature-streaming .feature-slider {
+  max-width: 80%;
+  margin: 0px auto;
+}
+.solo-team .btn {
+  min-width: 70px;
+  font-size: 18px;
+}
+.monthly-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  background: #0f131f;
+  padding: 5px 0px;
+  font-family: 'Avalon-Bold' !important;
+  font-size: 18px;
+  width: 100%;
+  position: relative;
+}
+.monthly-list {
+  text-align: center;
+  overflow-x: scroll;
+}
+.matchmaking-profile {
+  padding: 10px;
+}
+.matchmaking-selection {
+  width: 100%;
+}
+.matchmaking-5vs5 {
+  width: 100%;
+}
+.matchmaking-1vs1 {
+  width: 100%;
+}
+.vsbox {
+  font-size: 25px;
+  padding: 5px;
+}
+.matchmaking-selection img {
+  width: 50px;
+  margin: 5px 0px;
+}
+.tournament-header {
+  display: grid;
+}
+.tournament-search {
+  padding: 0px 0px;
+  width: 100%;
+}
+.tournament-versus{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.tournament-create{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.tournament-create .btn{
+  width: 100%;
+  margin-top: 10px;
+}
+.tournament-box {
+  width: 100%;
+  padding: 0px;
+  display: grid;
+  justify-content: initial;
+}
+.tournament-detail {
+  width: 100%;
+}
+.tournament-list {
+padding: 5px;
+}
+.tournament-block {
+  width: 100%;
+}
+.tournament-list .btn{
+  width: 100%;
+}
+/* ladder css */
+
+
+.ladder-contentt {
+  height: 400px;
+}
+.outlayed-popup .modal-body {
+  padding: 10px;
+}
+
+/* statistics page */
+.statistics-main {
+  padding: 25px 10px;
+  display: block;
+}
+.left-side-statistics {
+  width: 100%;
+}
+.right-side-statistics {
+  width: 100%;
+}
+.profile-statistics {
+  display: block;
+}
+.player-win {
+  margin: 50px 0px 50px 0px;
+}
+.statistics-profile-left {
+  margin: 0px 0px 0px 0px;
+}
+.left-side-statistics:after{
+  display: none;
+}
+.listing-player {
+  overflow-x: scroll;
+}
+.listing-player-list {
+  min-width: 700px;
+}
+.player-list-one .player-name {
+ 
+  font-size: 20px;
+}
+.statistics-search-right input {
+  min-width: 100%;
+}
+.statistics-search-left {
+  width: auto;
+}
+.statistics-search-right {
+  width: 100%;
+  display: grid;
+  justify-content: flex-start;
+}
+.searchbtn button {
+  padding: 4px 12px;
+}
+.player-cont h5 {
+  font-size: 35px;
+}
+.player-cont img {
+  height: 50px;
+}
+.player-one img {
+  height: 80px;
+}
+.scouting-box {
+  border-left: 10px solid #ffd464;
+}
+.scouting-box  .accordion {
+  min-width: 800px;
+  width: 100%;
+}
+.scouting-box {
+  overflow-x: scroll;
+}
+  
+
+
+/* header */
+.header-action ul li {
+  margin: 0px 5px;
+}
+.header-action img {
+  width: 22px;
+}
+.wallet {
+  padding: 4px 5px;
+  margin-left: 0px;
+  margin-right: 5px;
+}
+.wallet span {
+  font-family: 'Avalon' !important;
+  margin-right: 2px;
+  position: relative;
+  top: 0px;
+  font-size: 10px;
+}
+.wallet img {
+  width: 20px;
+  vertical-align: middle;
+}
+.wallet-amount {
+  background-color: #937c46;
+  padding: 0px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 2px;
+}
+.wallet-amount i {
+  font-size: 17px;
+  color: white;
+}
+.profile-menu {
+  display: flex;
+  align-items: center;
+  background: #1b2237;
+  border-radius: 5px;
+  padding: 1px 2px;
+}
+.profile-menu img {
+  display: none;
+}
+.profile-menu {
+  display: flex;
+  align-items: center;
+  background: #1b2237;
+  border-radius: 5px;
+  padding: 1px 2px;
+}
+
+.profile-menu .btn-success {
+  background: transparent;
+  border-color: transparent;
+  color: #ffd366;
+  font-size: 15px;
+  padding: 0;
+  vertical-align: top;
+}
+.profile-menu .dropdown-toggle::after {
+  content: "";
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAArCAYAAAGY8z85AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QjU4RkIxNkJFREQxMTFFQUIzNkJEQTREMDZCMEM5ODQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QjU4RkIxNkNFREQxMTFFQUIzNkJEQTREMDZCMEM5ODQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpCNThGQjE2OUVERDExMUVBQjM2QkRBNEQwNkIwQzk4NCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpCNThGQjE2QUVERDExMUVBQjM2QkRBNEQwNkIwQzk4NCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PoGmv3AAAAQOSURBVHjaYvz//z8DMYAJSq/Ao8YSTIJMhOJDSGwYtgFiebCtaBLHkNhWQKwC4zNgMeUwEJsDsQKyOCOxngEIIEZSfY1P9X9khYw4FP+HysEVYlMMVwQCLOhuRlLMiCzBgs2D2BwKEEBE+5pYwITGP0ggpNCBHVS9PCIEMGMahI/8hwBc8vZQeUV0OQY8mkD4KJrBtlC+Mi49hAxETvn/YSkdHwYIIJpHClUNBDn1Lhlm/EdOGSxYUvUDIFYgwTCURM6EJfXLQw0l2TB8WQqk+DEQy5JiGL5IASmUAeJ7pBhGKJZBGhTRDMVrGDHJBmboXWIMwxWGDMSWaeQaSJRBMAAQQFTPerTMeTAASnrPgPgyHd3hAI2masw0ir+8BoFHRJaY5GDr/6hAmdzyHwTu0NBhKpTWJ8gheo+KDlMipIdUCw4hGX6XBH02aA5TJFYvuSFxkMg0aofmMDlS7aI0LR1GsvwBlrYK2Q6jdhPkKBBbYRFXBeI7g6FJYw2tHQ4jOYyRUscNiZoEIICGZFU36kBKHVgDxL+gFTi9wDUgfom1jYyl7EEGljRsKMDwXST7NhJTUKugOdKaho57hGTPEVJqEnk0R9rRwHEPkMw/SE5VR8uQvINk7lFK6mL0kLShcsgdokZjQYmKIXmPUJojtzWjiOZIezIc95hUx5Ha3FKkILrvkhKtlLQH0TOOFYnReoweDVY5EoqgR8QUJbRoUSujOdKWQMgdJTdjUVJcyOFxJHJRcpiSYonSMk0BzZHmaBniMKXlJjUarCpAfBuL+DFoV2DA24N3sAx6HqaG46jZYH0I7SjBHGc32icZLAAgwAZ9CI526kYDEAwkgbgJiNcCcfwwDXiQn9KA+AwQdwKxBHGTWYQrwwYgfoNW4T6kUTdvoLAd1E/I4D0QdxDSS0xKAlVb59DE5KDz1aBJMtshnOpsoX44CPUTMrgIxCeokQKR26YH/2MH94dYirSDuhkbOEjKcDo5liuhjev/R5vesRrEAWeF1kv6j9buV6JnZ0QR2sHFBh7h6OINFLZF6/v+R+ukKw5Ubw4WkIcGadbGl1UPURJw1AxA5OEaXCnyDp2GuWHYEm1sFD3FqVDLLlo4Xg5PinxEpbFZfLPRj/CkODlq20nLVKCMtn7gP9qEsi2Vy7gHOOw6gm9h3WAOQORRL1y1Nqjx6kCB2Q5YGsDItaoCrf1HzwIdX2Vzl8Qy0hJt6JHqlcNgDEDkyuYonqxtQ6CMw5VVj1KzchjMAUhMzwa9r22HJ6sepEXlQO+FPJQOui/EsRDoNZQWxTEoH0+NtTjDZUAVtIB5KRGTAaBVV9HQcfrRAVW0iQsbIFYC4iNY5I9A5WwGS+AN9iH9MCAug7K7gHjV6JzIMAQA5djNYC/gLOcAAAAASUVORK5CYII=);
+  width: 12px;
+  height: 7px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+  vertical-align: middle;
+  margin-left: 0px;
+}
+.notification-section {
+  right: 0px !important;
+  width: 90%;
+}
+
+
+
+.friends-popup .nav-tabs .nav-link {
+  font-size: 16px;
+}
+.invited-friend h6 {
+  font-size: 16px;
+}
+.twitter {
+  width: 60px;
+  height: 60px;
+}
+.twitter p {
+  font-size: 14px;
+}
+.group-details-section .nav-tabs .nav-link {
+  font-size: 16px;
+}
+
+}
+/******************************** tournament Brackets *********************************/
+
+@media (min-width: 767px) {
+  .tournament-bracket {
+    flex-direction: row;
+  }
+}
+@media (max-width: 476px) {
+  .tournament-bracket-list {
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+  }
+}
+@media (min-width: 767px) {
+  .tournament-bracket-list {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+}
+@media (max-width: 476px) {
+  .tournament-bracket-item {
+    width: 100%;
+  }
+  .tournament-bracket-item:nth-child(odd),
+  .tournament-bracket-item:nth-child(even) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (min-width: 767px) {
+  .tournament-bracket-item {
+    padding: 0.5em 1em;
+    width: 100%;
+  }
+  .tournament-bracket-item:nth-child(odd),
+  .tournament-bracket-item:nth-child(even) {
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  .tournament-bracket-item::after {
+    position: absolute;
+    right: 0;
+    content: '';
+    display: block;
+    width: 1em;
+    height: 50%;
+    border-right: 2px solid #f4da3d;
+  }
+  .tournament-bracket-item:nth-child(odd)::after {
+    top: 50%;
+    border-top: 2px solid #f4da3d;
+    transform: translateY(-1px);
+  }
+  .tournament-bracket-item:nth-child(even)::after {
+    bottom: 50%;
+    border-bottom: 2px solid #f4da3d;
+    transform: translateY(1px);
+  }
+  .tournament-bracket-box:first-child .tournament-bracket-item {
+    padding-left: 0;
+    margin-bottom: 30px;
+  }
+  .tournament-bracket-box:last-child .tournament-bracket-item {
+    padding-right: 0;
+  }
+  .tournament-bracket-box:last-child .tournament-bracket-item::after {
+    display: none;
+  }
+  .tournament-bracket-box:nth-child(4n) .tournament-bracket-item::after {
+    border-radius: 0;
+    border-right: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .tournament-bracket-item {
+    padding: 0.5em 1.5em;
+  }
+  .tournament-bracket-item::after {
+    width: 1.5em;
+  }
+}
+@media (max-width: 476px) {
+  .tournament-bracket-content {
+    padding: 0.75em 0.5em;
+  }
+}
+@media (min-width: 767px) {
+  .tournament-bracket-content::before,
+  .tournament-bracket-content::after {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    content: '';
+    display: block;
+    width: 1em;
+    height: 10%;
+  }
+  .tournament-bracket-content::before {
+    bottom: 50%;
+    transform: translate(0, 1px);
+  }
+  .tournament-bracket-content::after {
+    top: 50%;
+    transform: translate(0, -1px);
+  }
+}
+@media (min-width: 1200px) {
+  .tournament-bracket-content::before,
+  .tournament-bracket-content::after {
+    width: 1.5em;
+  }
+  .tournament-bracket-content::before {
+    transform: translate(0, 1px);
+  }
+  .tournament-bracket-content::after {
+    transform: translate(0, -1px);
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .tw-box {
+    padding: 10px;
+  }
+  .winner-icon {
+    width: 100px;
+  }
+  .prize {
+    padding: 7px 8px;
+  }
+  .tw-middle {
+    font-size: 23px;
+  }
+  .tw-lower .player-icon {
+    padding: 5px 8px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .tournament-bracket-item {
+    padding: 0 0 10px 0;
+  }
+  .tournament-bracket-list {
+    margin-bottom: 0;
+  }
+  .tournament-winner {
+    margin: 40px 0;
+    padding-left: 0;
+    align-items: center;
+    width: 100%;
+  }
+  .tw-box {
+    width: 100%;
+  }
+  .tw-lower .player-icon {
+    justify-content: space-between;
+  }
+}
+@media only screen and (max-width: 476px) {
+  .tournament-bracket-list {
+    padding-bottom: 0;
+  }
+}

@@ -1,0 +1,1357 @@
+/************ Main Menu ***************/
+
+.main-menu .nav {
+  justify-content: flex-start;
+}
+
+.main-menu .nav .nav-link {
+  width: 100%;
+  padding: 14px 50px;
+  border-bottom: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  transition: all 0.5s;
+  position: relative;
+}
+
+.main-menu .nav .nav-link:hover {
+  background: #343a4d;
+  color: #fff;
+}
+
+.main-menu .nav .nav-link.active {
+  background: #343a4d;
+}
+
+.main-menu .nav .nav-link img {
+  max-width: 55px;
+  position: absolute;
+  left: 5px;
+}
+
+.main-menu .nav .nav-link span {
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+}
+
+/************ Increase Experience ***************/
+
+.increase-experience {
+  padding: 60px 0px 90px 0px;
+}
+
+.increase-experience h3 {
+  color: #ffd366;
+  font-size: 25px;
+  padding: 0px 20px;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.advanced-btn {
+  background: #1f3f32;
+  display: block;
+  color: #fff;
+  font-size: 28px;
+  letter-spacing: 0.5px;
+  padding: 5px 10px;
+}
+
+.advanced-btn img {
+  width: 72px;
+}
+
+.premium-btn {
+  background: #574d34;
+  display: block;
+  color: #fff;
+  font-size: 28px;
+  letter-spacing: 0.5px;
+  padding: 5px 10px;
+}
+
+.premium-btn img {
+  width: 72px;
+}
+
+.premium-btn:hover,
+.premium-btn:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.advanced-btn:hover,
+.advanced-btn:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+/************ Outplayed Community ***************/
+
+.outplayed-community {
+  background: #1c2237;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.outplayed-community h3 {
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.outplayed-community ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+.outplayed-community ul li {
+  margin: 0px 5px;
+}
+
+.outplayed-community ul li img {
+  width: 40px;
+}
+
+/************ Voice Server ***************/
+
+.voice-service h3 {
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin: 0;
+  padding: 14px 10px;
+  border-bottom: 1px solid #fff;
+}
+
+.voice-service ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  background: #1c2237;
+  justify-content: center;
+}
+
+.voice-service ul li img {
+  max-width: 50px;
+}
+
+.voice-service ul li {
+  padding: 20px;
+}
+
+.timeline-Widget {
+  background-color: #0f131f !important;
+}
+
+/********** Right Sidebar ******/
+
+.sidebar-header {
+  display: flex;
+  background: #0f131f;
+  align-items: center;
+  color: #fff;
+  letter-spacing: 0.5px;
+  font-size: 30px;
+  padding: 4px 20px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  margin-top: -1px;
+  position: relative;
+  justify-content: center;
+}
+
+.sidebar-header img {
+  width: 40px;
+  position: absolute;
+  left: 20px;
+}
+
+.friends-sidebar h3 {
+  text-align: center;
+  color: #fff;
+  padding: 50px 30px;
+  letter-spacing: 0.5px;
+  padding-bottom: 10px;
+}
+
+.team-sidebar h3 {
+  text-align: center;
+  color: #fff;
+  padding: 50px 20px;
+  letter-spacing: 0.5px;
+  padding-bottom: 10px;
+}
+
+.friends-sidebar .btn {
+  margin: 0px auto;
+  display: block;
+  background: #ffd366;
+  border-color: #ffd366;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 0px 2px #000;
+}
+
+.friends-sidebar {
+  padding-bottom: 50px;
+}
+
+/* 
+.team-sidebar {
+    padding-bottom: 100px;
+} */
+
+.team-sidebar .btn {
+  margin: 0px auto;
+  display: block;
+  background: #ffd366;
+  border-color: #ffd366;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 0px 2px #000;
+}
+
+.group-user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 200px;
+  margin: 0px auto;
+  padding: 20px 10px;
+}
+
+.group-user img {
+  width: 50px;
+}
+
+.user-crown .crown {
+  position: absolute;
+  width: 44px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -25px;
+}
+
+.user-crown {
+  text-align: center;
+  position: relative;
+}
+
+/*********** Create  Team ************/
+
+.create-team .form-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.create-team .form-group .form-label {
+  color: #fff;
+  width: 45%;
+  padding-right: 10px;
+}
+
+.create-team .form-group .form-control {
+  width: 55%;
+  background: #27314e;
+  border-color: #27314e;
+  color: white;
+}
+
+.create-team {
+  padding: 20px;
+}
+
+.create-team .profile-menu {
+  display: flex;
+  align-items: center;
+  background: #27314e;
+  border-radius: 5px;
+  padding: 0;
+  width: 55%;
+}
+
+.create-team .profile-menu .btn-success {
+  color: #74787b;
+  font-size: 1rem;
+  text-align: left;
+  padding: 7px 10px;
+  width: 100%;
+}
+
+.create-team .dropdown-menu {
+  min-width: auto;
+  max-width: 16.5rem;
+  width: 100%;
+}
+
+.create-team .profile-menu .dropdown {
+  width: 100%;
+}
+
+.create-team .profile-menu .dropdown-toggle::after {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  opacity: 0.5;
+}
+
+.add-member-btn,
+.add-member-btn:hover {
+  background: #b49750;
+  border-color: #b49750;
+  width: 100%;
+}
+
+.add-member-later,
+.add-member-later:hover {
+  background: #27314e;
+  border-color: #27314e;
+  width: 100%;
+}
+
+.upload-image-team {
+  width: 45%;
+}
+
+.team-popup-button {
+  width: 55%;
+  margin-top: 30px;
+}
+
+.team-popup-button .btn {
+  margin: 5px 0px;
+  font-size: 20px;
+  font-family: 'American' !important;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 0px 2px #000;
+}
+
+.upload-image-team .form-file-label {
+  color: #fff;
+}
+
+.team-popup .tab-content {
+  border: none;
+  margin-top: 0;
+}
+
+.team-popup .nav-tabs {
+  margin-top: 0;
+  border-bottom: none;
+}
+
+.team-popup .nav-tabs .nav-link.active {
+  background: #d9b45b;
+  border-color: #d9b45b;
+  color: #fff;
+}
+
+.team-popup .nav-tabs .nav-link {
+  border-radius: 0.2rem;
+  background: #3f392d;
+}
+
+.team-popup h2 {
+  font-family: 'American' !important;
+  color: #d9b45b;
+  text-align: center;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+.team-popup .nav-tabs .nav-link {
+  font-family: 'American' !important;
+  letter-spacing: 0.5px;
+  padding: 2px 10px;
+  text-shadow: 1px 0px 2px #000;
+}
+
+.team-popup .modal-content {
+  border: 1px solid rgb(217 180 91);
+  border-radius: 0;
+}
+
+.add-member .form-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.add-member .form-group .form-label {
+  color: #fff;
+  width: 45%;
+  padding-right: 10px;
+}
+
+.add-member .copy-link {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #7c6732;
+  border-color: #7c6732;
+  border-radius: 0;
+}
+
+.add-member .copy-link:hover {
+  background: #7c6732;
+  border-color: #7c6732;
+}
+
+.add-member .form-group .form-control {
+  width: 55%;
+  background: #27314e;
+  border-color: #27314e;
+  color: white;
+}
+
+.add-member {
+  padding: 20px;
+}
+
+.team-popup-button .send-invitation {
+  margin: 5px 0px;
+  font-size: 20px;
+  font-family: 'American' !important;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 0px 2px #000;
+  background: #d9b45b;
+  border-color: #d9b45b;
+  margin: 0px auto;
+  display: block;
+  max-width: 200px;
+  width: 100%;
+}
+
+.add-member .team-popup-button {
+  width: 100%;
+}
+
+.invited-players {
+  padding-top: 10px;
+}
+
+.invited-players span {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+
+.invite-palyer-box {
+  background: #312e29;
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: 32%;
+  margin: 10px 3px;
+  position: relative;
+  min-height: 56px;
+}
+
+.invite-palyer-img {
+  display: flex;
+  align-items: flex-start;
+}
+
+.invite-palyer-img img {
+  width: 40px;
+  margin-right: 5px;
+  border-radius: 50px;
+}
+
+.invite-palyer-img i {
+  color: #ad1210;
+  font-weight: 100;
+  position: absolute;
+  right: 5px;
+  top: 1px;
+  cursor: pointer;
+}
+
+.invite-palyer-box span {
+  font-size: 12px;
+  padding: 0;
+  padding-top: 10px;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+
+.invite-palyer-content {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  border-top: 1px solid #312e29;
+  border-bottom: 1px solid #312e29;
+  padding: 5px 0px;
+}
+
+.upload-image-team input {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background: #27314e;
+  position: relative;
+  border-radius: 4px;
+}
+
+.upload-image-team input::after {
+  content: 'Upload Logo';
+  background: #27314e;
+  display: block;
+  width: 100px;
+  height: 100px;
+  z-index: 9999;
+  color: #d9b45b;
+  font-size: 13px;
+  position: absolute;
+  top: 0;
+  cursor: pointer;
+  border: 1px solid #d9b45b;
+  border-radius: 4px;
+  line-height: 100px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.upload-image-team input:focus {
+  outline: none;
+}
+
+.team-popup.modal-dialog {
+  max-width: 600px;
+}
+
+/************** Group ***************/
+
+.group-popup .nav-tabs .nav-link {
+  width: 100%;
+}
+
+.group-sidebar .btn {
+  margin: 0px auto;
+  display: block;
+  background: #ffd366;
+  border-color: #ffd366;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 0px 2px #000;
+  margin-top: 10px;
+}
+
+.search-member {
+  position: absolute;
+  right: 0;
+  background: transparent;
+  border: none;
+  color: #888;
+}
+
+.search-member:hover,
+.search-member:focus {
+  background: transparent;
+  border: none;
+  color: #888;
+}
+
+.search-member.btn-primary:not(:disabled):not(.disabled).active,
+.search-member.btn-primary:not(:disabled):not(.disabled):active {
+  background: transparent;
+  border: none;
+  color: #888;
+}
+
+/*********** Friends ************/
+
+.friends-popup.modal-dialog {
+  max-width: 650px;
+  border: 1px solid #d9b45b;
+}
+
+.friends-popup h2 {
+  font-family: 'American' !important;
+  color: #d9b45b;
+  text-align: center;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+.friends-popup .tab-content {
+  border: none;
+  margin-top: -1px;
+  border-top: 1px solid #292e3c;
+}
+
+.friends-popup .nav-tabs {
+  margin-top: 10px;
+  border-bottom: none;
+}
+
+.friends-popup .nav .nav-link {
+  color: #717171;
+}
+
+.friends-popup .nav-tabs .nav-link.active {
+  background: transparent;
+  color: #fff;
+  border-bottom: 3px solid #d9b45b;
+}
+
+.addfriend-section {
+  /* background-color: #282e3e; */
+  display: flex;
+  justify-content: center;
+  padding: 20px 80px 20px 80px;
+}
+
+.addfriend-section input {
+  width: 100%;
+  background-color: #282e3e;
+  border: 1px solid #d9b45b;
+  border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  padding-left: 10px;
+  height: 35px;
+}
+
+.addfriend-section input::placeholder {
+  color: white;
+}
+
+.addfriend-section input:focus {
+  outline: none;
+  box-shadow: none !important;
+}
+
+.addfriend-section .fa-search {
+  color: #d9b45b;
+  font-size: 21px;
+  padding-left: 10px;
+  margin-top: 5px;
+}
+
+.friend-list {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.username {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.presitigo-img img {
+  height: 60px;
+}
+
+.steam-image img {
+  height: auto;
+  width: 40px;
+  padding: 3px;
+}
+
+.profile .userimg {
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profile .premium {
+  height: 30px;
+}
+
+.profile-section h6 {
+  color: #d9b45b;
+  font-family: 'Avalon' !important;
+  font-size: 17px;
+  letter-spacing: 0.8px;
+}
+
+.friend-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.friendlist-section {
+  background-image: url(../../assets/friend/main-bg.jpg);
+  height: 300px;
+  overflow: scroll;
+  overflow-x: hidden;
+  margin: 0px -20px 0px -20px;
+}
+
+.nodata {
+  height: auto;
+}
+
+.nodata p {
+  text-align: center;
+  color: white;
+  font-family: 'American' !important;
+  font-size: 24px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.friendlist-section {
+  background-color: #282e3e;
+}
+
+.friendlist-section .row {
+  border-bottom: 1px solid #b19758;
+}
+
+.friend-button button {
+  background-color: #ffd366;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 15px;
+  font-family: 'American' !important;
+  font-size: 20px;
+  border: 1px solid white;
+  margin-right: 10px;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 0px 2px #000;
+  text-transform: uppercase;
+  min-width: 138px;
+}
+
+.friendlist-section::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+.friendlist-section::-webkit-scrollbar {
+  width: 15px;
+  background-color: #f5f5f5;
+}
+
+.friendlist-section::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #ffd366;
+}
+
+.steam-image {
+  display: flex;
+  justify-content: flex-start;
+  width: 15%;
+}
+
+/************ invited friend*************/
+.invited-friend {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+.invited-friend h6 {
+  text-transform: uppercase;
+  font-family: 'American' !important;
+  letter-spacing: 0.5px;
+  color: white;
+  font-size: 28px;
+}
+
+.invited-friend img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.social-icon {
+  display: flex;
+}
+
+.twitter img {
+  height: 40px;
+  margin-top: 10px;
+}
+
+.twitter {
+  background-color: #d3b058;
+  margin: 10px;
+  width: 80px;
+  height: 80px;
+  display: grid;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.twitter p {
+  text-align: center;
+  color: white;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 0px 2px #000;
+  font-size: 17px;
+}
+
+.shearable-link {
+  text-align: left;
+  color: white;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 0px 2px #000;
+  font-size: 17px;
+  text-transform: uppercase;
+  margin: 20px 0px 0px 10px;
+}
+
+.shearable-link1 {
+  text-align: left;
+  color: white;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 0px 2px #000;
+  font-size: 17px;
+  text-transform: uppercase;
+  margin: 20px 0px 0px 10px;
+  margin-bottom: 20px;
+}
+
+.subheading {
+  font-size: 12px;
+  color: white;
+  margin: 0px 0px 0px 10px;
+}
+
+.coins-earn {
+  background-color: #d3b058;
+  padding: 20px 0px;
+}
+
+.coins-earn {
+  text-transform: uppercase;
+  font-family: 'American' !important;
+  letter-spacing: 0.5px;
+  color: white;
+  font-size: 20px;
+  text-shadow: 1px 0px 2px #000;
+  border-radius: 5px;
+  margin-top: 27px;
+}
+
+.coins {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #282e3e;
+  margin: 0px 10px 20px 10px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.coins img {
+  height: 40px;
+}
+
+.coins-earn h6 {
+  text-align: center;
+  font-size: 18px;
+}
+
+.coins h2 {
+  padding-bottom: 0px !important;
+}
+
+.group-user .btn {
+  margin: 0px auto;
+  display: contents !important;
+  background: #141928 !important;
+  font-size: 22px;
+  border: none !important;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 0px 2px #000;
+  margin-top: 10px;
+}
+
+.group-user .btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.profile-menu .css-yk16xz-control {
+  background: #27314e;
+  border-color: #27314e;
+}
+
+.profile-menu .css-2b097c-container {
+  width: 100%;
+}
+
+.profile-menu .css-yk16xz-control:focus {
+  background: #27314e !important;
+  border-color: #27314e !important;
+}
+
+.profile-menu .css-26l3qy-menu {
+  background: #27314e;
+  border-color: #27314e;
+}
+
+.css-1pahdxg-control,
+.css-26l3qy-menu,
+.css-yk16xz-control {
+  background-color: #27314e !important;
+  border-color: transparent !important;
+  color: #d3b058;
+}
+
+.css-1pahdxg-control:hover,
+.css-26l3qy-menu:hover,
+.css-yk16xz-control:hover {
+  background-color: #27314e !important;
+  border-color: transparent !important;
+  color: #d3b058;
+}
+
+.css-26l3qy-menu::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+.css-26l3qy-menu::-webkit-scrollbar {
+  width: 15px;
+  background-color: #f5f5f5;
+}
+
+.css-26l3qy-menu::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #ffd366;
+}
+
+/********** friend list************/
+.friend-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addfriend-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px 5px 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 5px 5px 5px;
+}
+
+.friend-text img {
+  height: 25px;
+  border-radius: 50px;
+}
+
+.friend-text h6 {
+  color: white;
+  padding-top: 7px;
+  font-size: 15px;
+  padding-left: 7px;
+  font-weight: 100;
+  font-family: 'Avalon' !important;
+}
+
+.friend-chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.friend-chat img {
+  height: 20px;
+  cursor: pointer;
+  /* margin:5px; */
+}
+
+.friend-listsection {
+  height: 250px;
+  overflow: auto;
+}
+
+.friend-listsection::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+.friend-listsection::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+}
+
+.friend-listsection::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #ffd366;
+}
+
+.friend-text .green {
+  color: green;
+  top: -8px;
+  left: 6px;
+  font-size: 10px;
+  position: relative;
+}
+
+.friend-text .gray {
+  color: #747781;
+  top: -8px;
+  left: 6px;
+  font-size: 10px;
+  position: relative;
+}
+
+.teamlist-dropdown {
+  display: flex;
+  justify-content: space-between;
+  background-color: #7a6c4b;
+  align-items: center;
+  padding: 5px 20px;
+}
+
+.teamlist-dropdown img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+}
+
+.teamlist-dropdown h6 {
+  font-size: 15px;
+  color: white;
+  font-weight: normal;
+  font-family: 'Avalon' !important;
+  margin-top: 12px;
+}
+
+.teamlist-dropdown i {
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.teamlist-dropdown .arrow {
+  height: 15px !important;
+}
+
+.team-listsection {
+  padding: 0px 15px;
+  border-bottom: 1px solid #ffd366;
+}
+
+/********** search-list&************/
+.search-list {
+  position: absolute;
+  z-index: 999;
+  background-color: #0e131f;
+  width: 44%;
+  height: 150px;
+  overflow: auto;
+  border: 1px solid #ffd366;
+  color: white;
+  top: 27%;
+  border-radius: 5px;
+  left: 46%;
+}
+
+.list {
+  margin-top: 10px;
+}
+
+.list h6 {
+  padding: 0px 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.list h6 img {
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+
+.list h6:hover {
+  background-color: #1b3a836b;
+  color: #ffd366;
+}
+
+.search-list::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+.search-list::-webkit-scrollbar {
+  width: 5px;
+  background-color: #f5f5f5;
+}
+
+.search-list::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #ffd366;
+}
+
+.twitter button.react-share__ShareButton:focus {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.dropdown-team button#dropdown-basic {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border: none;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: #7a6c4b;
+  align-items: center;
+  padding: 5px 20px;
+  margin: 5px 0px;
+}
+
+.dropdown-team button#dropdown-basic:focus {
+  border: none;
+  outline: none !important;
+}
+
+.dropdown-team .dropdown-toggle::after {
+  display: none !important;
+}
+
+.dropdown-team .dropdown-menu.show {
+  width: 100%;
+  position: relative !important;
+  transform: translate(0px, 0px) !important;
+}
+
+.user-image {
+  border: 2px solid white;
+  border-radius: 50px;
+}
+
+.user-image1 {
+  margin-top: 10px;
+  height: 57px;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+
+.create-teambtn {
+  margin: 120px auto 10px !important;
+}
+
+.add-in-team {
+  padding: 0px !important;
+  background-color: #1a2237 !important;
+  margin-top: 5px !important;
+}
+
+.add-in-team i {
+  font-size: 16px;
+  padding: 5px 8px;
+}
+
+.search-list-team {
+  position: absolute;
+  z-index: 999;
+  background-color: #0e131f;
+  width: 44%;
+  height: 150px;
+  overflow: auto;
+  border: 1px solid #ffd366;
+  color: white;
+  top: 41% !important;
+  border-radius: 5px;
+  left: 46%;
+}
+
+.team-sidebar {
+  padding-bottom: 10px;
+}
+
+.profile-section {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* .Steam-section{
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+} */
+.presitigo-img {
+  width: 10%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px 10px;
+}
+
+.buttonsection {
+  width: 25%;
+  justify-content: flex-end;
+}
+
+.username .premium {
+  height: 25px;
+}
+
+.friend-button .already-send {
+  background-color: #756b50 !important;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 15px;
+  font-family: 'American' !important;
+  font-size: 20px;
+  border: 1px solid #756b50 !important;
+  margin-right: 10px;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 0px 2px #000;
+  text-transform: uppercase;
+  min-width: 138px;
+}
+
+.create-team .form-group .form-control::placeholder {
+  color: #cac8c8;
+}
+
+.profile-menu .css-1wa3eu0-placeholder {
+  color: #cac8c8;
+}
+
+.profile-menu .css-g1d714-ValueContainer .css-1uccc91-singleValue {
+  color: white !important;
+}
+
+/*******8 invite group popup***********/
+
+.invitegroup-popup {
+  max-width: 515px !important;
+}
+
+.invite-group {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.invite-group img {
+  height: 85px;
+  width: 85px;
+  border-radius: 50px;
+}
+
+.invitegroup-popup h2 {
+  text-align: center;
+  color: #ffd366;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: 'American' !important;
+}
+
+.check-join-timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  font-size: 25px;
+  color: #ffd366;
+  font-weight: 600;
+}
+
+.check-image {
+  position: absolute;
+  height: 50px !important;
+  width: 50px !important;
+  top: 24px !important;
+  margin-left: 17px;
+}
+
+.Both-button-sho {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Frahaj css */
+
+.invite-palyer-box.ingroup {
+  pointer-events: none;
+  opacity: 0.5;
+  /* cursor: not-allowed; */
+}
+.group-user span {
+  position: absolute;
+}
+.group-user span i {
+  position: absolute;
+  right: -55px;
+  top: 1px;
+  color: red;
+  font-size: 20px;
+}
+.expand-icon {
+  display: none;
+}
+.team-sidebar .dropsown-list {
+  max-height: 250px;
+  height: auto;
+  overflow-y: auto;
+}
+
+.dropsown-list::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+.dropsown-list::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+}
+
+.dropsown-list::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #ffd366;
+}
+.team-sidebar button.create-teambtn.btn.btn-primary {
+  margin-top: 20px !important;
+}
+.activecaptain{
+  background: #d9b45b !important;
+}
+.captainicon{
+  right: 20px !important;
+  color: #fff !important;
+}

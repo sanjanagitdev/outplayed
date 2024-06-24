@@ -1,0 +1,6 @@
+{
+  "providerURL": "http://steamcommunity.com/openid",
+  "stateless": true,
+  "returnURL": "http://15.188.166.158:3001/api/user-route-handler/auth/steam/return",
+  "realm": "http://15.188.166.158:3001"
+}

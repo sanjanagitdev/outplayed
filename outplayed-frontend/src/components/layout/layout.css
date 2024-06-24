@@ -1,0 +1,37 @@
+
+.main-content{
+    background: #0f131f  url(../../assets/home/main-bg.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.main-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.middle-wrapper {
+    width: 60%;
+    margin: 0px auto;
+}
+
+.middle-wrapper-full{
+    width: 80%;
+}
+
+.left-sidebar {
+    width: 20%;
+    background: #0f131f;
+}
+
+
+.right-sidebar {
+    width: 20%;
+    background: #141928;
+}
